@@ -1,0 +1,22 @@
+<tr>
+  <td>Hi,</td>
+</tr>
+<tr>
+  <td>A change email request was received to change the Email address associated with your <%= configatron.solaro_trade_mark%> account to
+  <strong><%= @req_email %></strong>.</td>
+</tr>
+<tr>
+  <td>If you did not make this request, simply ignore this email.</td>
+</tr>
+<tr>
+  <td>If you made this request click the link below to confirm the change.</td>
+</tr>
+<tr>
+  <td><%= link_to "Confirm change of Email address", @edit_email_reset_url %></td>
+</tr>
+<tr>
+  <td>You can also copy and paste the URL below into your browser.</td>
+</tr>
+<tr>
+  <td><%= link_to @edit_email_reset_url, @edit_email_reset_url %></td>
+</tr>

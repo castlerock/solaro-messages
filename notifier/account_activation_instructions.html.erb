@@ -1,0 +1,23 @@
+<tr>
+  <td>Hi <%= @notification.profile.display_name %>,</td>
+</tr>
+<tr>
+  <td><font style="color:#28A2BA; font-size:17px;">Thank you for registering a <%= configatron.solaro_trade_mark%>
+	  <% if @notification.profile.is_parent? %>Parent
+	  <% else %>Student
+	  <% end %> Account.</font>
+	</td>
+</tr>
+<tr>
+  <td><strong>Click the link </strong>below and follow the instructions to continue the account creation process:</td>
+</tr>
+<tr>
+  <td><%= link_to "Continue to activate your account.", @account_activation_url %></td>
+</tr>
+<tr>
+  <td>You can also <strong>copy and paste </strong>the URL below into your browser.</td>
+</tr>
+<tr>
+  <td><%= link_to @account_activation_url, @account_activation_url %></td>
+</tr>
+

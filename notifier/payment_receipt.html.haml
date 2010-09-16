@@ -1,0 +1,65 @@
+- success_responses, failed_responses = get_response_separated(@responses)
+%tr
+  %td
+    Dear
+    %strong= "#{@profile.full_name},"
+%tr
+  %td
+    - unless success_responses.blank?
+      = "Your payment to #{configatron.solaro_trade_mark} was successful. Thank-you. The transaction details are as follows:"
+      - student_profile_id = success_responses.first.student_profile_id
+      %br
+      %br= "Purchase: #{student_profile_full_name(student_profile_id)} Solaro License"
+      - student = StudentProfile.find_by_id(student_profile_id).user
+      - username = student.attributes["username"] || student.attributes["email"]
+      %br= "Username/email: #{username}"
+      %br= "Date: #{success_responses.first.trans_date.to_date.to_s(:month_date_and_year)}"
+      %br= "Order ID: #{success_responses.first.order_id}"
+      %br= "Authorization: #{success_responses.first.auth_code}"
+      %br
+      - total_tax = Order.total_tax(:country => success_responses.first.country, :region => success_responses.first.region, :children_count => success_responses.length)
+      - net_amount = get_total_amount(@responses)
+      %br
+        %strong= "Amount: $#{Order.monthly_subscription_cost(:children_count => success_responses.length).to_dollar} CAD"
+      %br
+        %strong= "Taxes: $#{total_tax.to_dollar} CAD"
+      %br
+        %strong= "Total: $#{net_amount.to_dollar} CAD"
+      %br
+        %strong= "Paid: $#{net_amount.to_dollar} CAD"
+      %br   
+      %br= "Payment Plan: Monthly (billed on #{success_responses.first.trans_date.to_date.day.ordinalize} of each month)."
+      %br= "Payment Period:#{success_responses.first.first_recur_date.to_s(:month_date_and_year)} - #{success_responses.first.next_recur_date.to_s(:month_date_and_year)}"
+      %br= "Card#: *#{success_responses.first.card_details['card_number']} "
+      %br= "Card Exp: #{success_responses.first.card_details['expiry_month']}/#{success_responses.first.card_details['expiry_year']}"
+      - billing_address = success_responses.first.billing_address.attributes
+      %br= "Name: #{billing_address['name']}"
+      %br= "Address Line 1: #{billing_address['address1']}"
+      %br= "Address Line 2: #{billing_address['address2']}"
+      %br= "City: #{billing_address['city']}"
+      %br= "State/Province: #{billing_address['state']}"
+      %br= "Zip/Postal Code: #{billing_address['zip']}"
+      %br= "Country: #{billing_address['country']}"
+      %br= "Phone Number: #{billing_address['phone']}"
+      %br= "Email Address: #{billing_address['email']}"
+      %br
+      %br Your credit card will be billed as 'Castle Rock Research Corp'.
+      %br
+      %br= "Merchant"
+      %br= I18n.t('merchant_address.name')
+      %br= I18n.t('merchant_address.address1')
+      %br= I18n.t('merchant_address.address2')
+      %br= I18n.t('merchant_address.zip')
+      %br= "Phone: #{I18n.t('merchant_address.phone')}"
+      %br
+
+    - unless failed_responses.blank?
+      %br The following transactions were not able to be processed
+      %br
+      %br= (render :partial => 'detail_receipt', :collection => failed_responses, :as => :response)
+    %br=  "For more information, please login to www.SOLARO.com to view your account details, the #{configatron.solaro_trade_mark} License Agreement and our Privacy Policy. Should you have any questions or comments, please contact us at: 1-866-325-5299"
+    %br
+    %br= "Thank you for using #{configatron.solaro_trade_mark},"
+
+
+

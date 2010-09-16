@@ -1,0 +1,23 @@
+<tr>
+  <td>Hi <%= @display_name %>,</td>
+</tr>
+<tr>
+  <td>Your child tried creating an account at <a href="<%= APP_CONFIG['site_url'] %>"><%=configatron.solaro_trade_mark%></a> but he is minor(age < 13),
+    so he has requested you to create a <%=configatron.solaro_trade_mark%> student account for him.</td>
+</tr>
+<tr>
+  <td>If you know about such a request from any of your children and would like to create a <%=configatron.solaro_trade_mark%> student account, click the link below </td>
+</tr>
+
+<tr>
+  <td><%= link_to "Click here to create student account.", add_child_url %></td>
+</tr>
+<tr>
+  <td>You can also copy and paste the URL below into your browser.</td>
+</tr>
+<tr>
+  <td><%= link_to add_child_url, add_child_url %></td>
+</tr>
+<tr>
+  <td>No action is required. if you do not want to create an account.</td>
+</tr>

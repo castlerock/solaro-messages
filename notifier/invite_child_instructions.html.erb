@@ -1,0 +1,24 @@
+<tr>
+  <td>Hi,</td>
+</tr>
+<tr>
+  <td><%= @notification.profile.display_name %> has invited you to create a <%=configatron.solaro_trade_mark%> student account.</td>
+</tr>
+<tr>
+  <td>If you are the child of <%= @notification.profile.display_name %> and would like to activate a <%=configatron.solaro_trade_mark%> student account,then click the link below and follow the instructions to continue the account activation process.</td>
+</tr>
+<tr>
+  <td>Important note: by clicking on the link below you agree to open a <%=configatron.solaro_trade_mark%> student account.</td>
+</tr>
+<tr>
+  <td><%= link_to "Click here to set your password.", reset_password_url(@notification.activation_code) %></td>
+</tr>
+<tr>
+  <td>You can also copy and paste the link below into your browser:</td>
+</tr>
+<tr>
+  <td><%= reset_password_url(@notification.activation_code) %></td>
+</tr>
+<tr>
+  <td>Please ignore this email if you do not know <%= @notification.profile.display_name %> or if you do not want to open an account.</td>
+</tr>

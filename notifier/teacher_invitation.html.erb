@@ -1,0 +1,29 @@
+<% child_name = @notification.profile.full_name %>
+<tr>
+  <td>Hi <%= @teacher.full_name %>,</td>
+</tr>
+<tr>
+  <td>Your child <%= child_name %> has created a trial account at <a href="<%= APP_CONFIG['site_url'] %>">SOLARO�</a> and
+    has invited you to create a SOLARO� teacher account.</td>
+</tr>
+<tr>
+  <td>>If you are the teacher of <%= child_name %> and would like to create a SOLARO� teacher account, click the link below
+    and</td>
+</tr>
+<tr>
+  <td>follow the instructions to continue the account creation process.</td>
+</tr>
+<tr>
+  <td><%= link_to "Click here to continue creating your account.", login_url %></td>
+</tr>
+<tr>
+  <td>You can also copy and paste the URL below into your browser.</td>
+</tr>
+<tr>
+  <td><%= link_to login_url, login_url %></td>
+</tr>
+<tr>
+  <td>No action is required. if you do not want to create an account.</td>
+</tr>  
+
+

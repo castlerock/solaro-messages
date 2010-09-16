@@ -1,0 +1,17 @@
+<tr>
+  <td><font style="color:#28A2BA; font-size:17px;">Your <%= configatron.solaro_trade_mark%>
+	  <% if @notification.profile.is_parent? %>Parent
+	  <% else %>Student
+	  <% end %> Account has been created, and you can now access <%= configatron.solaro_trade_mark%>.</font>
+	</td>
+</tr>
+<tr>
+  <td>Your User Name is your email address : <%= "#{@notification.to_email}" %></td>
+</tr>
+<tr>
+  <td>Please keep this email for <strong>future reference</strong>.</td>
+</tr>
+<tr>
+  <td>Please visit us often at <%= link_to APP_CONFIG['site_url'], APP_CONFIG['site_url'] %>.</td>
+</tr>
+

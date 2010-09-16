@@ -1,0 +1,25 @@
+<tr>
+  <td>Hi,</td>
+</tr>
+<tr>
+  <td>Admin has invited you to create a <%=configatron.solaro_trade_mark%> payment agent account.</td>
+</tr>
+<tr>
+  <td>username to access the site is your email i.e., <%= @notification.to_email %></td>
+</tr>
+
+<tr>
+  <td>Important note: by clicking on the link below you agree to open a <%=configatron.solaro_trade_mark%> payment agent account.</td>
+</tr>
+<tr>
+  <td><%= link_to "Click here to continue to activate your account and set your password.", activate_and_reset_password_url(@notification.activation_code) %></td>
+</tr>
+<tr>
+  <td>You can also copy and paste the link below into your browser:</td>
+</tr>
+<tr>
+  <td><%= activate_and_reset_password_url(@notification.activation_code) %></td>
+</tr>
+<tr>
+  <td>Please ignore this email if you do not know <%= @notification.profile.display_name %> or if you do not want to open an account.</td>
+</tr>

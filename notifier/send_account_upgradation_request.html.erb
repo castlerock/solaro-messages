@@ -1,0 +1,15 @@
+<tr>
+  <td>Hi <%= @notification.profile.parent.display_name %>,</td>
+</tr>
+<tr>
+  <td>Your child <%= @notification.profile.display_name %> has requested you to upgrade his/her <%= configatron.solaro_trade_mark%> student account.</td>
+</tr>
+<tr>
+  <td>Click <%= link_to "here", login_url %> to upgrade his/her account.</td>
+</tr>
+<tr>
+  <td>You can also copy and paste the URL below into your browser:</td>
+</tr>
+<tr>
+  <td><%= link_to login_url, login_url %></td>
+</tr>

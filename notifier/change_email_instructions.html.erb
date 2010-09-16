@@ -1,0 +1,22 @@
+<tr>
+  <td>Hi <%= @notification.profile.display_name %>,</td>
+</tr>
+<tr>
+  <td>A request was received to change the Email address associated with your <%= configatron.solaro_trade_mark%> account
+	  to <%= @notification.to_email %>.
+	</td>
+</tr>
+<tr>
+  <td>If you did not make this request, simply ignore this email.</td>
+</tr>
+<tr>
+  <td>If you made this request, please click here to confirm the
+	  change <%= link_to 'Confirm Email address change', @update_email_url %>
+	</td>
+</tr>
+<tr>
+  <td>You can also copy and paste the URL below into your browser.</td>
+</tr>
+<tr>
+  <td><%= link_to @update_email_url, @update_email_url %></td>
+</tr>

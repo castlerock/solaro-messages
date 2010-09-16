@@ -1,0 +1,20 @@
+<tr>
+  <td>Hi <%= @notification.profile.parent.display_name %>,</td>
+</tr>
+<tr>
+  <td>Your Child <%= @notification.profile.display_name %> has completed a Quiz/Test and wish to share the result with his
+      teacher with email <%= @test_report.to_email %></td>
+</tr>
+<tr>
+  <td>This action needs your approval. Please login to your solaro account to view this Quiz/Test report and approve to
+    share it with the given teacher email address.</td>
+</tr>
+<tr>
+  <td><%= link_to "Approve/Reject Test Result Report.", login_url %></td>
+</tr>
+<tr>
+  <td>You can also copy and paste the URL below into your browser.</td>
+</tr>
+<tr>
+  <td><%= link_to login_url, login_url %></td>
+</tr>

@@ -1,0 +1,7 @@
+-unless response.success
+  %br
+    %strong= "Failure Message: #{failure_response_messages(response)}"
+  %br
+-else
+  %br Purchase Solaro License #{response.first_recur_date.to_s(:month_date_and_year)} - #{get_next_recur_date(response).to_s(:month_date_and_year)} $#{dollar_with_precision(response.trans_amount)} for: #{student_profile_full_name(response.student_profile_id)}
+  %br PaymentId: #{response.trans_id} Code: #{response.auth_code} #{response.response_code} #{response.iso}
