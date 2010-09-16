@@ -92,7 +92,7 @@ en:
       no_assessment_completed_msg: "No Assessment Completed"
     discussion_report:
       no_discussion_msg: "No Discussions available to display"      
-  no_class_flash_message: "No class exist for given grade and region."
+  no_class_flash_message: "No classes exist for given grade and region."
   not_authorised_for_genre: "You are not authorized to see this Genre."
   login:
     username_forgot_password_msg: "If you login to SOLARO&trade; with a username, please ask your teacher or parent to reset your password in their SOLARO&trade; accounts."
