@@ -1,0 +1,12 @@
+%p= "Hi #{@notification.profile.display_name}"
+%p= "While signing up for SOLARO™ on #{Date.today - 1 }, one or more of your child accounts were not processed."
+%p We have setup a parent account for you if you wish to finish the payment process. Just click on the link the below and follow the instructions to create a password. Then you can login using your email address and password to the parent account.
+%p
+  %strong Click here to continue to activate your account and set the password.
+%p You can also copy and paste the URL below into your browser.
+%p
+  = link_to activate_and_reset_password_url(@notification.activation_code), activate_and_reset_password_url(@notification.activation_code) 
+%p= "If you experience any problems, please contact us at #{APP_CONFIG['support']['mail']} or call 1-866-325-5299."
+
+%p= "The #{APP_CONFIG['solaro_trade_mark']} Team"
+ 

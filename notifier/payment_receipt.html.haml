@@ -6,43 +6,44 @@
 %tr
   %td
     - unless success_responses.blank?
-      = "Your payment to #{configatron.solaro_trade_mark} was successful. Thank-you. The transaction details are as follows:"
-      - student_profile_id = success_responses.first.student_profile_id
-      %br
-      %br= "Purchase: #{student_profile_full_name(student_profile_id)} Solaro License"
-      - student = StudentProfile.find_by_id(student_profile_id).user
-      - username = student.attributes["username"] || student.attributes["email"]
-      %br= "Username/email: #{username}"
-      %br= "Date: #{success_responses.first.trans_date.to_date.to_s(:month_date_and_year)}"
-      %br= "Order ID: #{success_responses.first.order_id}"
-      %br= "Authorization: #{success_responses.first.auth_code}"
-      %br
-      - total_tax = Order.total_tax(:country => success_responses.first.country, :region => success_responses.first.region, :children_count => success_responses.length)
-      - net_amount = get_total_amount(@responses)
-      %br
-        %strong= "Amount: $#{Order.monthly_subscription_cost(:children_count => success_responses.length).to_dollar} CAD"
-      %br
-        %strong= "Taxes: $#{total_tax.to_dollar} CAD"
-      %br
-        %strong= "Total: $#{net_amount.to_dollar} CAD"
-      %br
-        %strong= "Paid: $#{net_amount.to_dollar} CAD"
-      %br   
-      %br= "Payment Plan: Monthly (billed on #{success_responses.first.trans_date.to_date.day.ordinalize} of each month)."
-      %br= "Payment Period:#{success_responses.first.first_recur_date.to_s(:month_date_and_year)} - #{success_responses.first.next_recur_date.to_s(:month_date_and_year)}"
-      %br= "Card#: *#{success_responses.first.card_details['card_number']} "
-      %br= "Card Exp: #{success_responses.first.card_details['expiry_month']}/#{success_responses.first.card_details['expiry_year']}"
-      - billing_address = success_responses.first.billing_address.attributes
-      %br= "Name: #{billing_address['name']}"
-      %br= "Address Line 1: #{billing_address['address1']}"
-      %br= "Address Line 2: #{billing_address['address2']}"
-      %br= "City: #{billing_address['city']}"
-      %br= "State/Province: #{billing_address['state']}"
-      %br= "Zip/Postal Code: #{billing_address['zip']}"
-      %br= "Country: #{billing_address['country']}"
-      %br= "Phone Number: #{billing_address['phone']}"
-      %br= "Email Address: #{billing_address['email']}"
-      %br
+      = "Your payment to #{configatron.solaro_trade_mark} was successful. Thank you. The transaction details are as follows:"
+      - success_responses.each do |success_response|
+        - student_profile_id = success_response.student_profile_id
+        %br
+        %br= "Purchase: #{student_profile_full_name(student_profile_id)} #{configatron.solaro_trade_mark} Premium Student Account License"
+        - student = StudentProfile.find_by_id(student_profile_id).user
+        - username = student.attributes["username"] || student.attributes["email"]
+        %br= "Username/email: #{username}"
+        %br= "Date: #{success_response.trans_date.to_date.to_s(:month_date_and_year)}"
+        %br= "Payment ID: #{success_response.order_id}"
+        %br= "Authorization: #{success_response.auth_code}"
+        %br
+        - total_tax = Order.total_tax(:country => success_response.country, :region => success_response.region, :children_count => success_responses.length, :ip_address => success_response.ip_address, :amount => @base_amount.to_s, :location_declaration => success_response.location_declaration)
+        - net_amount = get_total_amount(@responses)
+        %br
+          %strong= "Amount: #{success_response.currency} #{Order.monthly_subscription_cost(:children_count => success_responses.length, :amount => @base_amount.to_s).to_dollar}"
+        %br
+          %strong= "Taxes: #{success_response.currency} #{total_tax.to_dollar}"
+        %br
+          %strong= "Total: #{success_response.currency} #{net_amount.to_dollar}"
+        %br
+          %strong= "Paid: #{success_response.currency} #{net_amount.to_dollar}"
+        %br
+        %br= "Payment Plan: Monthly (billed on #{success_response.trans_date.to_date.day.ordinalize} of each month)."
+        %br= "Payment Period:#{success_response.first_recur_date.to_s(:month_date_and_year)} - #{success_response.next_recur_date.to_s(:month_date_and_year)}"
+        %br= "Card#: *#{success_response.card_details['card_number']} "
+        %br= "Card Exp: #{success_response.card_details['expiry_month']}/#{success_response.card_details['expiry_year']}"
+        - billing_address = success_response.billing_address.attributes
+        %br= "Name: #{billing_address['name']}"
+        %br= "Address Line 1: #{billing_address['address1']}"
+        %br= "Address Line 2: #{billing_address['address2']}"
+        %br= "City: #{billing_address['city']}"
+        %br= "State/Province: #{billing_address['state']}"
+        %br= "Zip/Postal Code: #{billing_address['zip']}"
+        %br= "Country: #{billing_address['country']}"
+        %br= "Phone Number: #{billing_address['phone']}"
+        %br= "Email Address: #{billing_address['email']}"
+        %br
       %br Your credit card will be billed as 'Castle Rock Research Corp'.
       %br
       %br= "Merchant"
