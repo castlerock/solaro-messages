@@ -7,7 +7,7 @@ en:
   rule_quiz_once: "Each {{test_message}} can be taken only once."
   rule_end_test_early: "You may end a {{test_message}} early without answering every question. Unanswered questions will be marked as incorrect."
   rule_guessing: "If you are not sure about an answer, click \"Just Guessing\". That question will be marked with a special icon so you can review it later."
-  rule_session_inactive: "If your session is inactive for {{inactivity_session_timeout}} minutes, you will be logged off and your {{test_message}} will be marked as NOT completed because of inactivity."
+  rule_session_inactive: "If your session is inactive for {{inactivity_session_timeout}} minutes, you will be logged off and your {{test_message}} will be marked as not completed because of inactivity."
   activity_login: "Logged in"
   activity_logout: "Logged out"
   activity_quiz_take: "Taken a quiz"
@@ -23,8 +23,8 @@ en:
   new_discussion_answer: "New discussion answer"
   new_discussion_comment: "New discussion comment"
   new_note: "New note created"
-  update_note: "Note Updated"
-  delete_note: "Note Deleted"
+  update_note: "Note updated"
+  delete_note: "Note deleted"
   reports_parent_courses_title: "Classes"
   reports_parent_topics_title: "Topics"
   cad: CAD
@@ -43,7 +43,7 @@ en:
     button:
       back: "Back"
     hints:
-      view_report: "View reports for this child"
+      view_report: "View Reports for this child"
     assessment_report:
       title: "Assessments Report"
       course_title: "{{course_name}} Assessments"
@@ -93,27 +93,27 @@ en:
       no_lesson_completed_msg: "No Lesson Completed"
       no_assessment_completed_msg: "No Assessment Completed"
     discussion_report:
-      no_discussion_msg: "No Discussions available to display"      
-  no_class_flash_message: "No class exist for given grade and region."
+      no_discussion_msg: "There are no Discussions to display."      
+  no_class_flash_message: "No classes exist for this grade and region."
   not_authorised_for_genre: "You are not authorized to see this Genre."
   login:
-    username_forgot_password_msg: "If you login to SOLARO&trade; with a username, please ask your teacher or parent to reset your password in their SOLARO&trade; accounts."
+    username_forgot_password_msg: "If you login to SOLARO&trade; with a username, please ask your teacher or parent to reset your password in their SOLARO&trade; account."
   user_registration:
     student_added_successfully: "Child successfully added. Do you want to add another child?"
-    student_deleted_successfully: "child successfully deleted."
-    session_expired: "Session expired, please try again"
-    child_account_created: "Your SOLARO(TM) Student Account has been created"
-    no_recommended_classes: "No recommended classes found, you can add additional classes after signing up."
+    student_deleted_successfully: "Child successfully deleted."
+    session_expired: "Session expired, please try again."
+    child_account_created: "Your SOLARO(TM) Student Account has been created."
+    no_recommended_classes: "No recommended classes found. You can add additional classes after signing up."
   upgrade_account:
     success_fully_updated: "Successfully updated."
-    please_select_one_child: "Please select atleast one child"
-    upgraded_already: "You had been upgraded already" 
+    please_select_one_child: "Please select at least one child."
+    upgraded_already: "You have already been upgraded." 
   payment:
-    error_header: "Payment can't be processed because of following reasons"
-    tax_message: "Taxes are applicable as per the country and province/state"
+    error_header: "Payment can't be processed because of the following reasons."
+    tax_message: "Taxes are applicable as per the country and province / state."
   ip_address:
-    success_msg: "Successfully added ip addresses."
-    failure_msg: "Any of Ip Address is invalid"
+    success_msg: "IP Addresses successfully added."
+    failure_msg: "One or more IP Address is invalid."
   merchant_address:
     name: "Castle Rock Research Corp"
     address1: "2340 Manulife Place"
@@ -127,7 +127,7 @@ en:
   student(s): "student(s)"
   school:
     status_info:
-      send_message: "Pending - Please send a activation mail to the School Administrator"
-      pending_message: "Pending - Activation mail has been sent to the School Administrator and needs to be activated by School Administrator."
+      send_message: "Pending - Please send an activation mail to the School Administrator."
+      pending_message: "Pending - Activation email has been sent to the School Administrator and needs to be activated by School Administrator."
       decline_message: "Declined"
       active_message: "Active"
