@@ -104,7 +104,7 @@ en:
     session_expired: "Session expired, please try again"
     child_account_created: "Your SOLARO(TM) Student Account has been created"
     no_recommended_classes: "No recommended classes found, you can add additional classes after signing up."
-    gateway_down: "Because of Payment Gateway error we were unable to process your payment. You can login with Parent account and try later."
+    gateway_down: "Due to an error with our Payment Gateway, we were unable to process your payment. Please try later after logging into your Parent account."
     parent_child_created: "Parent and children account has been created/updated."
   upgrade_account:
     success_fully_updated: "Successfully updated."
