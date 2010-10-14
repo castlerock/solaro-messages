@@ -1,5 +1,6 @@
 # Sample localization file for English. Add more files in this directory for other locales.
 # See http://github.com/svenfuchs/rails-i18n/tree/master/rails%2Flocale for starting points.
+# 10-10-14 Changes to file by Karl and Colin
 
 en:
   rule_quiz: "{{test_message}} Rules"
@@ -104,10 +105,12 @@ en:
     session_expired: "Session expired, please try again."
     child_account_created: "Your SOLARO(TM) Student Account has been created."
     no_recommended_classes: "No recommended classes found. You can add additional classes after signing up."
+    gateway_down: "Due to an error with our payment gateway, we were unable to process your payment. We apologize for this situation. Please log into the parent account that was created with your email address as your username.  You can make the payment from that account so you do not need to re-enter all of your child's details."
+    parent_child_created: "Parent and child accounts have been created/updated."
   upgrade_account:
     success_fully_updated: "Successfully updated."
-    please_select_one_child: "Please select at least one child."
-    upgraded_already: "You have already been upgraded." 
+    please_select_one_child: "Please select at least one child"
+    upgraded_already: "Your account has already been upgraded. Thank-you."
   payment:
     error_header: "Payment can't be processed because of the following reasons."
     tax_message: "Taxes are applicable as per the country and province / state."
