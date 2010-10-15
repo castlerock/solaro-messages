@@ -107,6 +107,8 @@ en:
     no_recommended_classes: "No recommended classes found. You can add additional classes after signing up."
     gateway_down: "Due to an error with our payment gateway, we were unable to process your payment. We apologize for this situation. Please log in to the parent account that was created with your email address as your username.  You can make the payment from that account so you do not need to re-enter all of your child's details."
     parent_child_created: "Parent and child accounts have been created/updated."
+    payment_alert_text: "Do not go to any other page or refresh the web browser otherwise your payment may be canceled or a duplicate payment may be made."
+    update_credit_card_text: "Do not go to any other page or refresh the web browser otherwise your credit card update may fail."
   upgrade_account:
     success_fully_updated: "Successfully updated."
     please_select_one_child: "Please select at least one child"
