@@ -30,6 +30,7 @@ en:
   reports_parent_topics_title: "Topics"
   cad: CAD
   usd: USD
+  unknown_error: "Something went wrong"
   parent_reports:
     title:
       reports: "Reports"
