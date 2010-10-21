@@ -100,6 +100,8 @@ en:
   not_authorised_for_genre: "You are not authorized to see this Genre."
   login:
     username_forgot_password_msg: "If you login to SOLARO&trade; with a username, please ask your teacher or parent to reset your password in their SOLARO&trade; account."
+    reset_password_instruction_msg: "Reset password instruction sent"
+    reset_password_error_msg: "Error in sending email"
   user_registration:
     student_added_successfully: "Child successfully added. Do you want to add another child?"
     student_deleted_successfully: "Child successfully deleted."
