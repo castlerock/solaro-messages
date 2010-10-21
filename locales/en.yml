@@ -144,3 +144,5 @@ en:
       teacher:
         deleted: Teacher deleted.
         not_deleted: Error in teacher deletion.
+  school_admin:
+    password_change_message: "Password successfully changed"    
