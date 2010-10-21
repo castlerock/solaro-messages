@@ -140,3 +140,7 @@ en:
       pending_message: "Pending - Activation email has been sent to the School Administrator and needs to be activated by School Administrator."
       decline_message: "Declined"
       active_message: "Active"
+    admin:
+      teacher:
+        deleted: Teacher deleted.
+        not_deleted: Error in teacher deletion.
