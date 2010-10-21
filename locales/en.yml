@@ -110,6 +110,9 @@ en:
     parent_child_created: "Parent and child accounts have been created/updated."
     payment_alert_text: "Do not go to any other page or refresh the web browser otherwise your payment may be canceled or a duplicate payment may be made."
     update_credit_card_text: "Do not go to any other page or refresh the web browser otherwise your credit card update may fail."
+    change_email_message: "Please check your new email address for a confirmation message."
+    error_changing_email: "Error updating email address"
+    email_changed: "Your email address has been changed. Please login using your new email address."
   upgrade_account:
     success_fully_updated: "Successfully updated."
     please_select_one_child: "Please select at least one child"
