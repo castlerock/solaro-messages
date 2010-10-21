@@ -146,3 +146,4 @@ en:
         not_deleted: Error in teacher deletion.
   school_admin:
     password_change_message: "Password successfully changed"    
+    school_profile_updated: "School Profile successfully updated"
