@@ -146,6 +146,7 @@ en:
       teacher:
         deleted: Teacher deleted.
         not_deleted: Error in teacher deletion.
+        updated: Teacher Profile updated successfully.
       update: "Profile updated successfully"
     error_message:
       phone_number: "Phone number is required."
