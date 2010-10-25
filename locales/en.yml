@@ -146,7 +146,9 @@ en:
       teacher:
         deleted: Teacher deleted.
         not_deleted: Error in teacher deletion.
-      update: "Phone number is required."        
+      update: "Profile updated successfully"
+      error_message:
+        phone_number: "Phone number is required."
   school_admin:
     password_change_message: "Password successfully changed."    
     school_profile_updated: "School profile successfully updated."
