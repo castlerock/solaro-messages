@@ -2,12 +2,12 @@
 
 <p>A new school account was created with the following details-</p> 
 
-
+<% school_admin = @school.school_admin_profile.school_admin %>
 <p>School Name:&nbsp;<%= @school.name %></p>
 <p>Contact Name:&nbsp;<%= @school.contact_name %></p>
-<p>Designation:&nbsp;<%= @school.designation %></p>
-<p>Phone No.:&nbsp;<%= @school.phone_number %></p>  
-<p>Admin Email:&nbsp;<%= @school.admin_email %></p>  
+<p>Designation:&nbsp;<%= @school.school_admin_profile.designation %></p>
+<p>Phone No.:&nbsp;<%= school_admin.contact_no %></p>
+<p>Admin Email:&nbsp;<%= school_admin.email %></p>
 <p>School Type:&nbsp;<%= @school.school_type %></p>
 <p>Address1:&nbsp;<%= @school.address1 %></p> 
 <p>Address2:&nbsp;<%= @school.address2 %></p>
