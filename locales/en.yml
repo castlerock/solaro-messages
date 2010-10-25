@@ -144,8 +144,9 @@ en:
       active_message: "Active"
     admin:
       teacher:
-        deleted: Teacher account was successfully deleted.
-        not_deleted: "Error in teacher deletion. Please try again."
+        deleted: Teacher deleted.
+        not_deleted: Error in teacher deletion.
+      update: "Phone number is required."        
   school_admin:
     password_change_message: "Password successfully changed."    
     school_profile_updated: "School profile successfully updated."
