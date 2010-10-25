@@ -122,6 +122,8 @@ en:
   payment:
     error_header: "Payment can't be processed because of the following reasons."
     tax_message: "Taxes are applied as per the country and province / state."
+    card_updated: "Credit Card details was successfully updated."
+    card_update_failed: "Credit Card details updation failed."
   ip_address:
     success_msg: "IP Addresses successfully added."
     failure_msg: "One or more IP Address is invalid."
