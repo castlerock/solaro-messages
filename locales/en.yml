@@ -95,7 +95,7 @@ en:
       no_lesson_completed_msg: "No Lesson Completed"
       no_assessment_completed_msg: "No Assessment Completed"
     discussion_report:
-      no_discussion_msg: "There are no Discussions to display."      
+      no_discussion_msg: "There are no Discussions to display."
   no_class_flash_message: "No classes exist for this grade and region."
   not_authorised_for_genre: "You are not authorized to see this Genre."
   login:
@@ -149,11 +149,12 @@ en:
         deleted: Teacher deleted.
         not_deleted: Error in teacher deletion.
         updated: Teacher Profile updated successfully.
-      update: "Profile updated successfully"
+        reset_password: "Instructions to reset teacher password were sent to {{email}}."
+      update: "Profile was updated successfully"
     error_message:
       phone_number: "Phone number is required."
   school_admin:
-    password_change_message: "Password successfully changed."    
+    password_change_message: "Password successfully changed."
     school_profile_updated: "School profile successfully updated."
   teacher_class:
     add_student_to_class_message: "Add student to selected classes"
