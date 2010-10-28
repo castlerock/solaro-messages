@@ -159,3 +159,4 @@ en:
     school_profile_updated: "School profile successfully updated."
   teacher_class:
     add_student_to_class_message: "Add student to selected classes"
+    not_authorized_to_add_class: "Your account has been deactivated by Admin. You are not authorized to add new class."
