@@ -163,3 +163,4 @@ en:
     add_student_to_class_message: "Add student to selected classes"
     not_authorized_to_add_class: "Your account has been deactivated by Admin. You are not authorized to add new class."
     bulk_students_created_message: "{{no_of_students}} has been added for this class successfully."
+    no_assessments: "There are no Assessments with the selected Class and Status"
