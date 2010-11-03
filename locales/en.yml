@@ -147,7 +147,7 @@ en:
     admin:
       teacher:
         deleted: Teacher deleted.
-        not_deleted: Error in teacher deletion.
+        not_deleted: "Error in teacher deletion: {{error}}."
         updated: Teacher Profile updated successfully.
         reset_password: "Instructions to reset teacher password were sent to {{email}}."
         change_email: An email will be sent to the email address with a link to verify this change.
