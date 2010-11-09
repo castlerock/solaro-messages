@@ -159,6 +159,7 @@ en:
   school_admin:
     password_change_message: "Password successfully changed."
     school_profile_updated: "School profile successfully updated."
+    region_cannot_be_blank: "Please select the region."
   teacher_class:
     add_student_to_class_message: "Add student to selected classes"
     not_authorized_to_add_class_or_student: "Your account has been deactivated by Admin."
