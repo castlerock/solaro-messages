@@ -165,4 +165,4 @@ en:
     not_associated_with_school: "Your account is curently not associated with a school."
     not_authorized_to_view_students: "You are not authorized to view student list."
     bulk_students_created_message: "{{no_of_students}} has been added for this class successfully."
-    no_assessments: "There are no Assessments with the selected Class and Status"
+    no_assessments: "There are no Assessments with the selected Class and Status" 
