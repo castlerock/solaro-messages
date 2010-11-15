@@ -127,6 +127,7 @@ en:
   ip_address:
     success_msg: "IP Addresses successfully added."
     failure_msg: "One or more IP Address is invalid."
+    duplicate_error_msg: "Can't enter duplicate ip addresses."
   merchant_address:
     name: "Castle Rock Research Corp"
     address1: "2340 Manulife Place"
