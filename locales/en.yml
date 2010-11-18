@@ -37,7 +37,7 @@ en:
       assessment: "Assessment Report"
       activity: "Activity Report"
       progress: "Progress Report"
-      outcome: "Outcome Report"
+      outcome: "Standard Report"
       calendar: "Calendar Report"
       discussion: "Discussion Report"
       courses: "Courses"
@@ -76,7 +76,7 @@ en:
       test_and_quiz_results: "Test and Quiz Results"
       view_hint: "View reports for this child."
     outcome_report:
-      outcome: "Outcome"
+      outcome: "Standard"
       assessments: "Assessments"
       lessons: "Lessons"
       lesson_status: "Lesson Status"
