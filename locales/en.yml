@@ -167,4 +167,10 @@ en:
     not_associated_with_school: "Your account is curently not associated with a school."
     not_authorized_to_view_students: "You are not authorized to view student list."
     bulk_students_created_message: "{{no_of_students}} has been added for this class successfully."
-    no_assessments: "There are no Assessments with the selected Class and Status" 
+    no_assessments: "There are no Assessments with the selected Class and Status"
+  forgot_password:
+    school_admin_activation_required: "Admin has not yet approved your account. Please wait until you get an activation email from admin "
+    pending_activation: "Your account is not yet activated. Please activate your account first!!"
+    user_not_found: "There is no user with that email address. Please try again after checking that the address has been entered correctly."
+    username_not_found: "Please enter an email address and try again. If you login to SOLARO&trade; with a username, please ask your teacher or parent to reset your password in their SOLARO&trade; accounts."
+    empty_params: "Please Enter the email to search."
