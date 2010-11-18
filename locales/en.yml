@@ -119,6 +119,7 @@ en:
     success_fully_updated: "Successfully updated."
     please_select_one_child: "Please select at least one child"
     upgraded_already: "Your account has already been upgraded. Thank-you."
+    upgrade_accounts: "Some of your student accounts can be upgraded to premium"
   payment:
     error_header: "Payment can't be processed because of the following reasons."
     tax_message: "Taxes are applied as per the country and province / state."
