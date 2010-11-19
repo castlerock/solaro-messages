@@ -169,6 +169,7 @@ en:
     not_authorized_to_view_students: "You are not authorized to view student list."
     bulk_students_created_message: "{{no_of_students}} has been added for this class successfully."
     no_assessments: "There are no Assessments with the selected Class and Status"
+    no_classes_created: 'You have not created any classes. On the "My Classes" page choose the "Add a new class" button.'
   forgot_password:
     school_admin_activation_required: "Admin has not yet approved your account. Please wait until you get an activation email from solaro admin. "
     pending_activation: "Your account is not yet activated. Please activate your account first!!"
