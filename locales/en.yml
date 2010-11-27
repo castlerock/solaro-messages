@@ -31,10 +31,15 @@ en:
   cad: CAD
   usd: USD
   unknown_error: "Something went wrong"
+  student_reports:
+    calendar_report:
+      assessments_quizzes: "Practice Quizzes and Tests"
+      practice_sessions: "Practice Sessions"
+      no_assessment_completed_msg: "No practice sessions Completed"
   parent_reports:
     title:
       reports: "Reports"
-      assessment: "Assessment Report"
+      assessment: "Practice Sessions Report"
       activity: "Activity Report"
       progress: "Progress Report"
       outcome: "Standards Report"
@@ -47,15 +52,16 @@ en:
     hints:
       view_report: "View Reports for this child"
     assessment_report:
-      title: "Assessments Report"
-      course_title: "{{course_name}} Assessments"
+      title: "Practice Sessions Report"
+      course_title: "{{course_name}} Practice Tests and Quizzes"
       date: "Date"
       type: "Type"
       score: "Score"
       questions: "Questions"
       status: "Status"
-      results_hint: "These are the Test and Quiz Scores for this Class."
+      results_hint: "These are practice test and quiz results for this class."
       select_hint: "Select a Class to view the Assessment results for this child."
+      found_none: "No assessments found for this criteria."
     activity_report:
       title: "Student Activity Report"
       current_stars: "Current Stars"
@@ -73,7 +79,7 @@ en:
     progress_report:
       sections: "Sections"
       lessons: "Lessons"
-      test_and_quiz_results: "Test and Quiz Results"
+      test_and_quiz_results: "Practice Test and Quiz Results"
       view_hint: "View reports for this child."
     outcome_report:
       outcome: "Standard"
@@ -82,7 +88,7 @@ en:
       lesson_status: "Lesson Status"
     calendar_report:
       note: "Note"
-      assessments_quizzes: "Assessments (Quizzes / Tests)"
+      assessments_quizzes: "Practice Quizzes and Tests"
       lesssons: "Lessons (Started / Completed)"
       less_than_50: "Less Than 50%"
       stars_earned: "Stars Earned"
@@ -93,7 +99,8 @@ en:
       passage: "Passage"
       no_lesson_started_msg: "No Lesson Started"
       no_lesson_completed_msg: "No Lesson Completed"
-      no_assessment_completed_msg: "No Assessment Completed"
+      no_assessment_completed_msg: "No practice sessions Completed"
+      practice_sessions: "Practice Sessions"
     discussion_report:
       no_discussion_msg: "There are no Discussions to display."
   no_class_flash_message: "No classes exist for this grade and region."
@@ -181,5 +188,5 @@ en:
     reading_practice: "Reading Practice"
     reading_selections: "Reading Selections"
     start_practice: "Start Practice"
-    practice_sessions: "Practice Sessions"
+    practice_test_and_quiz_questions: "Practice Test and Quiz Questions"
     
