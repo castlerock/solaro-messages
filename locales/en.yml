@@ -195,4 +195,6 @@ en:
     reading_selections: "Reading Selections"
     start_practice: "Start Practice"
     practice_test_and_quiz_questions: "Practice Test and Quiz Questions"
+    no_reading_selections_msg: "No reading selections are available" 
+    no_reading_practice_msg: "No reading practice is available"
   default_flash_message: "Suggestions? Use the Support button on the right hand side to leave us feedback."
