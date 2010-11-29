@@ -37,7 +37,7 @@ en:
     calendar_report:
       assessments_quizzes: "Practice Quizzes and Tests"
       practice_sessions: "Practice Sessions"
-      no_assessment_completed_msg: "No practice sessions Completed"
+      no_assessment_completed_msg: "No practice sessions completed"
   teacher_reports:
     outcome_report:
       completed_questions: "Completed Questions"
@@ -107,7 +107,7 @@ en:
       passage: "Passage"
       no_lesson_started_msg: "No Lesson Started"
       no_lesson_completed_msg: "No Lesson Completed"
-      no_assessment_completed_msg: "No practice sessions Completed"
+      no_assessment_completed_msg: "No practice sessions completed"
       practice_sessions: "Practice Sessions"
     discussion_report:
       no_discussion_msg: "There are no Discussions to display."
