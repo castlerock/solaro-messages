@@ -28,6 +28,8 @@ en:
   delete_note: "Note deleted"
   reports_parent_courses_title: "Classes"
   reports_parent_topics_title: "Topics"
+  test_finish: "You have finished the test."
+  test_save: "Your test is saved successfully."
   cad: CAD
   usd: USD
   unknown_error: "Something went wrong"
