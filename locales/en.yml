@@ -43,6 +43,8 @@ en:
       completed_questions: "Completed Questions"
     progress_report:
       test_and_quiz_results: "Practice Test and Quiz Results"
+    assignment_report:
+      no_student_assessment: "This assignment has not yet assigned to any of your student."
   parent_reports:
     title:
       reports: "Reports"
