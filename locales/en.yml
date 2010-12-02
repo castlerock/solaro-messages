@@ -116,7 +116,7 @@ en:
   no_class_flash_message: "No classes exist for this grade and region."
   not_authorised_for_genre: "You are not authorized to see this Genre."
   login:
-    username_forgot_password_msg: "If you login to SOLARO&trade; with a username, please ask your teacher or parent to reset your password in their SOLARO&trade; account."
+    username_forgot_password_msg: "If you login to SOLARO with a username, please ask your teacher or parent to reset your password in their SOLARO account."
     reset_password_instruction_msg: "Instructions to reset your password were sent to your email."
     reset_password_error_msg: "Error in sending email. Please try again."
   user_registration:
@@ -191,7 +191,7 @@ en:
     school_admin_activation_required: "Admin has not yet approved your account. Please wait until you get an activation email from solaro admin. "
     pending_activation: "Your account is not yet activated. Please activate your account first!!"
     user_not_found: "There is no user with that email address. Please try again after checking that the address has been entered correctly."
-    username_not_found: "Please enter an email address and try again. If you login to SOLARO&trade; with a username, please ask your teacher or parent to reset your password in their SOLARO&trade; accounts."
+    username_not_found: "Please enter an email address and try again. If you login to SOLARO with a username, please ask your teacher or parent to reset your password in their SOLARO accounts."
     empty_params: "Please Enter the email to search."
   practice:
     practice_text: "Practice"
