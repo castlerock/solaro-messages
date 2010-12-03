@@ -116,14 +116,14 @@ en:
   no_class_flash_message: "No classes exist for this grade and region."
   not_authorised_for_genre: "You are not authorized to see this Genre."
   login:
-    username_forgot_password_msg: "If you login to SOLARO with a username, please ask your teacher or parent to reset your password in their SOLARO account."
+    username_forgot_password_msg: "If you login to {{solaro_trade_mark}} with a username, please ask your teacher or parent to reset your password in their {{solaro_trade_mark}} account."
     reset_password_instruction_msg: "Instructions to reset your password were sent to your email."
     reset_password_error_msg: "Error in sending email. Please try again."
   user_registration:
     student_added_successfully: "Child successfully added. Do you want to add another child?"
     student_deleted_successfully: "Child successfully deleted."
     session_expired: "Session expired. Please try again."
-    child_account_created: "Your SOLARO(TM) Student Account has been created."
+    child_account_created: "Your {{solaro_trade_mark}} Student Account has been created."
     no_recommended_classes: "No recommended classes found. You can add additional classes after signing up."
     gateway_down: "Due to an error with our payment gateway, we were unable to process your payment. We apologize for this situation. Please log in to the parent account that was created with your email address as your username.  You can make the payment from that account so you do not need to re-enter all of your child's details."
     parent_child_created: "Parent and child accounts have been created/updated."
@@ -191,7 +191,7 @@ en:
     school_admin_activation_required: "Admin has not yet approved your account. Please wait until you get an activation email from solaro admin. "
     pending_activation: "Your account is not yet activated. Please activate your account first!!"
     user_not_found: "There is no user with that email address. Please try again after checking that the address has been entered correctly." 
-    username_not_found: "Please enter an email address and try again. If you login to SOLARO with a username, please ask your teacher or parent to reset your password in their SOLARO accounts."
+    username_not_found: "Please enter an email address and try again. If you login to {{solaro_trade_mark}} with a username, please ask your teacher or parent to reset your password in their {{solaro_trade_mark}} accounts."
     empty_params: "Please Enter the email to search."
   practice:
     practice_text: "Practice"
