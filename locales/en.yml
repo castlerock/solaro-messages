@@ -190,7 +190,7 @@ en:
   forgot_password:
     school_admin_activation_required: "Admin has not yet approved your account. Please wait until you get an activation email from solaro admin. "
     pending_activation: "Your account is not yet activated. Please activate your account first!!"
-    user_not_found: "There is no user with that email address. Please try again after checking that the address has been entered correctly."
+    user_not_found: "There is no user with that email address. Please try again after checking that the address has been entered correctly." 
     username_not_found: "Please enter an email address and try again. If you login to SOLARO with a username, please ask your teacher or parent to reset your password in their SOLARO accounts."
     empty_params: "Please Enter the email to search."
   practice:
