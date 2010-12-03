@@ -8,7 +8,7 @@ en:
   rule_quiz_once: "Each {{test_message}} can be taken only once."
   rule_end_test_early: "You may end a {{test_type}} {{test_message}} early without answering every question. Your {{test_type}} {{test_message}} will be saved for you to finish up later. To finish a saved {{test_type}} {{test_message}}, find the \"Finish up\" link on the \"{{test_type}} Results\" page."
   rule_guessing: "If you are not sure about an answer, click \"Just Guessing\". That question will be marked with a special icon so you can review it later."
-  rule_session_inactive: "If your session is inactive for {{inactivity_session_timeout}} minutes, your practice {{test_message}} progress will be automatically saved for you to finish up later."
+  rule_session_inactive: "If your session is inactive for {{inactivity_session_timeout}} minutes, your {{test_type}} {{test_message}} progress will be automatically saved for you to finish up later."
   activity_login: "Logged in"
   activity_logout: "Logged out"
   activity_quiz_take: "Taken a quiz"
