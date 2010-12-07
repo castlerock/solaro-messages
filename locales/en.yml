@@ -207,4 +207,7 @@ en:
     subheading1: "It looks like this is your first time logged into Solaro."
     subheading2: "To get started choose any topic in the class lists to start your lessons."
     subheading3: "As you complete lessons and quizzes your progress bar will fill up."
+  solaro_admin:
+    demo_accounts:
+      create_success_message: "Demo student account has been created successfully"
 
