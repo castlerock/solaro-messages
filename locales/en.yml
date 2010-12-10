@@ -218,5 +218,19 @@ en:
   teacher:
     invalid_activation_link: "Oops!! Invalid activation link."
     invitation_approved: "This invitation with this activation link is already approved. Please login"
+  notification:
+    register_pending: "You had requested to register"
+    register_approved: "Your requet to Register is approved"
+    register_rejected: "Your request to registeration is rejected from {{from_email}}"
+    forgot_password_pending: "You had requested for new password"
+    forgot_password_changed: "New Password for your account is created"
+    parent_request_pending: "Parent {{support_email}} has requested you to become his child"
+    parent_request_approved: "You had approved to became the child of {{support_email}}"
+    parent_request_rejected: "You had rejected to became the child of {{support_email}}"
+    change_email_pending: "You had requested to change your email address"
+    change_email_approved: "You had changed your email address successfully"
+    child_request_pending: "You had requested to add parent {{to_email}}"
+    child_request_approved: "You had successfuly added the parent {{to_email}}"
+    
 
 
