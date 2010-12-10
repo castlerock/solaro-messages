@@ -190,6 +190,8 @@ en:
     no_classes_created: 'You have not created any classes. On the "My Classes" page choose the "Add a new class" button.'
     invite_parent:
       add_email_address: "Add email address"
+    invitation_status:
+        accepted: "Accepted, account created"
   forgot_password:
     school_admin_activation_required: "Admin has not yet approved your account. Please wait until you get an activation email from solaro admin. "
     pending_activation: "Your account is not yet activated. Please activate your account first!!"
