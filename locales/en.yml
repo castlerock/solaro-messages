@@ -192,6 +192,13 @@ en:
       add_email_address: "Add email address"
     invitation_status:
         accepted: "Accepted, account created"
+        no_invitation_sent: "No invitation sent"
+        sent: "Sent, no response"
+        rejected: "Rejected, do not contact"
+        no_email: "No email address"
+    invitation_button:
+        send: "Send Invite"
+        resend: "Resend Invite"
   forgot_password:
     school_admin_activation_required: "Admin has not yet approved your account. Please wait until you get an activation email from solaro admin. "
     pending_activation: "Your account is not yet activated. Please activate your account first!!"
