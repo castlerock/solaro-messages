@@ -225,6 +225,7 @@ en:
   teacher:
     invalid_activation_link: "Oops!! Invalid activation link."
     invitation_approved: "This invitation with this activation link is already approved. Please login"
+    parent_created: "Parent Account is created successfully"
   notification:
     register_pending: "You had requested to register"
     register_approved: "Your requet to Register is approved"
@@ -238,6 +239,6 @@ en:
     change_email_approved: "You had changed your email address successfully"
     child_request_pending: "You had requested to add parent {{to_email}}"
     child_request_approved: "You had successfuly added the parent {{to_email}}"
-    
+
 
 
