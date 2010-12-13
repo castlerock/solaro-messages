@@ -1,0 +1,24 @@
+%tr
+  %td
+    Hi,
+%tr
+  %td
+    = @profile.salutation
+    = @profile.last_name
+    a teacher at #{@profile.school.name}, has invited you to create a SOLAR parent account.
+    SOLARO is an online educational system that is being used by your child and teachers at school.
+    Creating a free parent account will allow you to track the progress of your child in SOLARO and also to communicate with teachers.
+%tr
+  %td
+    Follow the link below to create a SOLARO parent account.
+%tr
+  %td
+    = link_to "Click here to create a SOLARO parent account.", register_parent_from_teacher_invitation_teacher_invite_parent_url(@notification.activation_code)
+%tr
+  %td
+    You can also copy and paste this link into your browser:
+%tr
+  %td= link_to register_with_activation_code_url(@notification.activation_code), register_with_activation_code_url(@notification.activation_code)
+%tr
+  %td
+    Click here to unsubscribe from receiving SOLARO email messages.
