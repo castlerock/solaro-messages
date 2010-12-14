@@ -22,4 +22,4 @@
 %tr
   %td
     Click here to
-    = link_to "unsubscribe from receiving SOLARO email messages.",unsubscribe_me_url(:activation_code => @notification.activation_code)
+    = link_to "unsubscribe from receiving SOLARO email messages.",confirm_unsubscribe_url(:activation_code => @notification.activation_code)
