@@ -225,8 +225,8 @@ en:
       create_success_message: "Demo student account has been created successfully"
   teacher:
     invalid_activation_link: "Oops!! Invalid activation link."
-    invitation_approved: "This invitation with this activation link is already approved. Please login"
-    parent_created: "Parent Account is created successfully"
+    invitation_approved: "This invitation with this activation link is already approved. Please login."
+    parent_created: "Parent Account is created successfully."
   notification:
     register_pending: "You had requested to register"
     register_approved: "Your requet to Register is approved"
