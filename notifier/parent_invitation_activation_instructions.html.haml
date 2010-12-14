@@ -5,15 +5,15 @@
   %td
     = @profile.salutation
     = @profile.last_name
-    a teacher at #{@profile.school.name}, has invited you to create a SOLAR parent account.
-    SOLARO is an online educational system that is being used by your child and teachers at school.
-    Creating a free parent account will allow you to track the progress of your child in SOLARO and also to communicate with teachers.
+    a teacher at #{@profile.school.name}, has invited you to create a #{configatron.solaro_trade_mark} parent account.
+    #{configatron.solaro_trade_mark} is an online educational system that is being used by your child and teachers at school.
+    Creating a free parent account will allow you to track the progress of your child in #{configatron.solaro_trade_mark} and also to communicate with teachers.
 %tr
   %td
-    Follow the link below to create a SOLARO parent account.
+    Follow the link below to create a #{configatron.solaro_trade_mark} parent account.
 %tr
   %td
-    = link_to "Click here to create a SOLARO parent account.", register_parent_url(@notification.activation_code)
+    = link_to "Click here to create a #{configatron.solaro_trade_mark} parent account.", register_parent_url(@notification.activation_code)
 %tr
   %td
     You can also copy and paste this link into your browser:
@@ -22,4 +22,4 @@
 %tr
   %td
     Click here to
-    = link_to "unsubscribe from receiving SOLARO email messages.",confirm_unsubscribe_url(:activation_code => @notification.activation_code)
+    = link_to "unsubscribe from receiving #{configatron.solaro_trade_mark} email messages.",confirm_unsubscribe_url(:activation_code => @notification.activation_code)
