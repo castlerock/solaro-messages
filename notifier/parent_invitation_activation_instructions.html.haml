@@ -20,5 +20,4 @@
 %tr
   %td=# link_to register_with_activation_code_url(@notification.activation_code), register_with_activation_code_url(@notification.activation_code)
 %tr
-  %td
-    Click here to unsubscribe from receiving SOLARO email messages.
+  %td= Click here to link_to "unsubscribe from receiving SOLARO email messages.",unsubscribe_me_url(:activation_code => @notification.activation_code)
