@@ -196,6 +196,7 @@ en:
         sent: "Sent, no response"
         rejected: "Rejected, do not contact"
         no_email: "No email address"
+        changed: "Changed, send invitation"
     invitation_button:
         send: "Send Invite"
         resend: "Resend Invite"
