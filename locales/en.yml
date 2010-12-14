@@ -240,6 +240,6 @@ en:
     change_email_approved: "You had changed your email address successfully"
     child_request_pending: "You had requested to add parent {{to_email}}"
     child_request_approved: "You had successfuly added the parent {{to_email}}"
-
+  unsubscribe_success_message: "you are successfully unsubscribed from SOLARO mailing list."
 
 
