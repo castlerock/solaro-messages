@@ -199,7 +199,7 @@ en:
         rejected: "Rejected, do not contact"
         no_email: "No email address"
         changed: "Changed, send invitation"
-        authenticated: "Authenticated, response pending"
+        authenticated: "Pending"
     invitation_button:
         send: "Send Invite"
         resend: "Resend Invite"
@@ -233,7 +233,7 @@ en:
   notification:
     register_pending: "You had requested to register"
     register_approved: "Your requet to Register is approved"
-    register_rejected: "Your request to registeration is rejected from {{from_email}}"
+    register_rejected: "Your request to registeration is rejected from {{from_email}}" 
     forgot_password_pending: "You had requested for new password"
     forgot_password_changed: "New Password for your account is created"
     parent_request_pending: "Parent {{support_email}} has requested you to become his child"
