@@ -241,5 +241,6 @@ en:
     child_request_pending: "You had requested to add parent {{to_email}}"
     child_request_approved: "You had successfuly added the parent {{to_email}}"
   unsubscribe_success_message: "you are successfully unsubscribed from SOLARO mailing list."
+  agree_privacy_policy: "I am aware of and agree with the {{solaro_trade_mark}} {{terms_link}} and {{privacy_and_policy}}"
 
 
