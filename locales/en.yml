@@ -199,6 +199,7 @@ en:
         rejected: "Rejected, do not contact"
         no_email: "No email address"
         changed: "Changed, send invitation"
+        authenticated: "Authenticated, response pending"
     invitation_button:
         send: "Send Invite"
         resend: "Resend Invite"
