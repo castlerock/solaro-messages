@@ -230,6 +230,7 @@ en:
     invalid_activation_link: "Oops!! Invalid activation link."
     invitation_approved: "This invitation with this activation link is already approved. Please login."
     parent_created: "Parent Account is created successfully."
+    invalid_email: "The email provided is not valid."
   notification:
     register_pending: "You had requested to register"
     register_approved: "Your requet to Register is approved"
