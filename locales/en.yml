@@ -162,8 +162,8 @@ en:
   student(s): "student(s)"
   school:
     status_info:
-      send_message: "Pending - Please send an activation mail to the School Administrator."
-      pending_message: "Pending - Activation email has been sent to the School Administrator and needs to be activated by School Administrator."
+      send_message: "New"
+      pending_message: "Pending"
       decline_message: "Declined"
       active_message: "Active"
     admin:
