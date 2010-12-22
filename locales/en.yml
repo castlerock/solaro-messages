@@ -163,8 +163,8 @@ en:
   student(s): "student(s)"
   school:
     status_info:
-      send_message: "New"
-      pending_message: "Pending"
+      send_message: "New <br/> Send activation email"
+      pending_message: "Pending <br/> Activation email sent"
       decline_message: "Declined"
       active_message: "Active"
     admin:
