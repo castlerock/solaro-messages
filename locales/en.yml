@@ -74,7 +74,7 @@ en:
       status: "Status"
       results_hint: "These are practice test and quiz results for this class."
       select_hint: "Select a Class to view the Assessment results for this child."
-      found_none: "No assessments found for this criteria."
+      found_none: "No practice sessions have been completed."
     activity_report:
       title: "Student Activity Report"
       current_stars: "Current Stars"
