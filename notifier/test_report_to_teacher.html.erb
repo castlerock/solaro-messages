@@ -12,7 +12,7 @@
     <table width="700" border="0" cellpadding="0" cellspacing="0">
       <tr>
         <td>
-          <%= image_tag("#{APP_CONFIG["site_url"]}/images/headbanner.png") %>
+          <%= image_tag("#{configatron.site_url}/images/headbanner.png") %>
         </td>
       </tr>
 
@@ -81,7 +81,7 @@
                       <tr>
                         <td align="center" valign="middle"><b>Results</b></td>
                         <td align="center" valign="middle">
-                          <%= image_tag(test_answer.is_correct ? "#{APP_CONFIG["site_url"]}/images/tick.png" : "#{APP_CONFIG["site_url"]}/images/cross.png") %>
+                          <%= image_tag(test_answer.is_correct ? "#{configatron.site_url}/images/tick.png" : "#{configatron.site_url}/images/cross.png") %>
 
                         </td>
                       </tr>
@@ -128,7 +128,7 @@
       <tr>
         <td align="right">
           <a href="#">
-            <%= image_tag("#{APP_CONFIG["site_url"]}/images/button.png",:border=>'0') %>
+            <%= image_tag("#{configatron.site_url}/images/button.png",:border=>'0') %>
 
           </a>
         </td>
