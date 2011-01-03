@@ -227,6 +227,9 @@ en:
   solaro_admin:
     demo_accounts:
       create_success_message: "Demo student account has been created successfully"
+    school:
+      decline_school_success: 'School has been declined successfully'
+      decline_school_failure: 'School has not been declined'
   teacher:
     invalid_activation_link: "Oops!! Invalid activation link."
     invitation_approved: "This invitation with this activation link is already approved. Please login."
