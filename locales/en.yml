@@ -5,12 +5,12 @@
 
 
 en:
-  rule_quiz: "{{test_type}} : {{test_message}} Rules"
+  rule_quiz: "%{test_type} : %{test_message} Rules"
   rule_paper_pencil: "You may use paper, a pencil, and a calculator."
-  rule_quiz_once: "Each {{test_message}} can be taken only once."
-  rule_end_test_early: "You may end a {{test_type}} {{test_message}} early without answering every question. Your {{test_type}} {{test_message}} will be saved for you to finish up later. To finish a saved {{test_type}} {{test_message}}, find the \"Finish up\" link on the \"{{test_type}} Results\" page."
+  rule_quiz_once: "Each %{test_message} can be taken only once."
+  rule_end_test_early: "You may end a %{test_type} %{test_message} early without answering every question. Your %{test_type} %{test_message} will be saved for you to finish up later. To finish a saved %{test_type} %{test_message}, find the \"Finish up\" link on the \"%{test_type} Results\" page."
   rule_guessing: "If you are not sure about an answer, click \"Just Guessing\". That question will be marked with a special icon so you can review it later."
-  rule_session_inactive: "If your session is inactive for {{inactivity_session_timeout}} minutes, your {{test_type}} {{test_message}} progress will be automatically saved for you to finish up later."
+  rule_session_inactive: "If your session is inactive for %{inactivity_session_timeout} minutes, your %{test_type} %{test_message} progress will be automatically saved for you to finish up later."
   activity_login: "Logged in"
   activity_logout: "Logged out"
   activity_quiz_take: "Taken a quiz"
@@ -66,7 +66,7 @@ en:
       view_report: "View Reports for this child"
     assessment_report:
       title: "Practice Sessions Report"
-      course_title: "{{course_name}} Practice Tests and Quizzes"
+      course_title: "%{course_name} Practice Tests and Quizzes"
       date: "Date"
       type: "Type"
       score: "Score"
@@ -120,14 +120,14 @@ en:
   no_class_flash_message: "No classes exist for this grade and region."
   not_authorised_for_genre: "You are not authorized to see this Genre."
   login:
-    username_forgot_password_msg: "If you login to {{solaro_trade_mark}} with a username, please ask your teacher or parent to reset your password in their {{solaro_trade_mark}} account."
+    username_forgot_password_msg: "If you login to %{solaro_trade_mark} with a username, please ask your teacher or parent to reset your password in their %{solaro_trade_mark} account."
     reset_password_instruction_msg: "Instructions to reset your password were sent to your email."
     reset_password_error_msg: "Error in sending email. Please try again."
   user_registration:
     student_added_successfully: "Child successfully added. Do you want to add another child?"
     student_deleted_successfully: "Child successfully deleted."
     session_expired: "Session expired. Please try again."
-    child_account_created: "Your {{solaro_trade_mark}} Student Account has been created."
+    child_account_created: "Your %{solaro_trade_mark} Student Account has been created."
     no_recommended_classes: "No recommended classes found. You can add additional classes after signing up."
     gateway_down: "Due to an error with our payment gateway, we were unable to process your payment. We apologize for this situation. Please log in to the parent account that was created with your email address as your username.  You can make the payment from that account so you do not need to re-enter all of your child's details."
     parent_child_created: "Parent and child accounts have been created/updated."
@@ -170,9 +170,9 @@ en:
     admin:
       teacher:
         deleted: Teacher deleted.
-        not_deleted: "Error in teacher deletion: {{error}}."
+        not_deleted: "Error in teacher deletion: %{error}."
         updated: Teacher Profile updated successfully.
-        reset_password: "Instructions to reset teacher password were sent to {{email}}."
+        reset_password: "Instructions to reset teacher password were sent to %{email}."
         change_email: An email will be sent to the email address with a link to verify this change.
       update: "Profile was updated successfully"
     student:
@@ -188,7 +188,7 @@ en:
     not_authorized_to_add_class_or_student: "Your account has been deactivated by Admin."
     not_associated_with_school: "Your account is curently not associated with a school."
     not_authorized_to_view_students: "You are not authorized to view student list."
-    bulk_students_created_message: "{{no_of_students}} has been added for this class successfully."
+    bulk_students_created_message: "%{no_of_students} has been added for this class successfully."
     no_assessments: "There are no Assignments with the selected Class and Status"
     no_classes_created: 'You have not created any classes. On the "My Classes" page choose the "Add a new class" button.'
     invite_parent:
@@ -208,7 +208,7 @@ en:
     school_admin_activation_required: "Admin has not yet approved your account. Please wait until you get an activation email from solaro admin. "
     pending_activation: "Your account is not yet activated. Please activate your account first!!"
     user_not_found: "There is no user with that email address. Please try again after checking that the address has been entered correctly." 
-    username_not_found: "Please enter an email address and try again. If you login to {{solaro_trade_mark}} with a username, please ask your teacher or parent to reset your password in their {{solaro_trade_mark}} accounts."
+    username_not_found: "Please enter an email address and try again. If you login to %{solaro_trade_mark} with a username, please ask your teacher or parent to reset your password in their %{solaro_trade_mark} accounts."
     empty_params: "Please Enter the email to search."
   practice:
     practice_text: "Practice"
@@ -235,17 +235,17 @@ en:
   notification:
     register_pending: "You had requested to register"
     register_approved: "Your requet to Register is approved"
-    register_rejected: "Your request to registeration is rejected from {{from_email}}" 
+    register_rejected: "Your request to registeration is rejected from %{from_email}"
     forgot_password_pending: "You had requested for new password"
     forgot_password_changed: "New Password for your account is created"
-    parent_request_pending: "Parent {{support_email}} has requested you to become his child"
-    parent_request_approved: "You had approved to became the child of {{support_email}}"
-    parent_request_rejected: "You had rejected to became the child of {{support_email}}"
+    parent_request_pending: "Parent %{support_email} has requested you to become his child"
+    parent_request_approved: "You had approved to became the child of %{support_email}"
+    parent_request_rejected: "You had rejected to became the child of %{support_email}"
     change_email_pending: "You had requested to change your email address"
     change_email_approved: "You had changed your email address successfully"
-    child_request_pending: "You had requested to add parent {{to_email}}"
-    child_request_approved: "You had successfuly added the parent {{to_email}}"
+    child_request_pending: "You had requested to add parent %{to_email}"
+    child_request_approved: "You had successfuly added the parent %{to_email}"
   unsubscribe_success_message: "you are successfully unsubscribed from SOLARO mailing list."
-  agree_privacy_policy: "I am aware of and agree with the {{solaro_trade_mark}} {{terms_link}} and {{privacy_and_policy}}"
+  agree_privacy_policy: "I am aware of and agree with the %{solaro_trade_mark} %{terms_link} and %{privacy_and_policy}"
 
 
