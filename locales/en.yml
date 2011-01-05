@@ -218,10 +218,10 @@ en:
     practice_test_and_quiz_questions: "Practice Test and Quiz Questions"
     no_reading_selections_msg: "No reading selections are available"
     no_reading_practice_msg: "No reading practice is available"
-  default_flash_message: "Suggestions? Use the Solaro Help button on the right to give us feedback."
+  default_flash_message: "MNP Academy"
   student_first_time_login_message:
     heading: "Hey!"
-    subheading1: "It looks like this is your first time logged into Solaro."
+    subheading1: "It looks like this is your first time logged into MNP Academy."
     subheading2: "To get started choose any topic in the class lists to start your lessons."
     subheading3: "As you complete lessons and quizzes your progress bar will fill up."
   solaro_admin:
