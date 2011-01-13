@@ -248,7 +248,9 @@ en:
     change_email_approved: "You had changed your email address successfully"
     child_request_pending: "You had requested to add parent %{to_email}"
     child_request_approved: "You had successfuly added the parent %{to_email}"
-  unsubscribe_success_message: "you are successfully unsubscribed from SOLARO mailing list."
+  unsubscribe_success_message: "You are successfully unsubscribed from SOLARO mailing list."
+  unsubscribe_failure_message: "Not a valid request to unsubscribe from SOLARO mailing list."
+  unsubscribe_me_text: "Ok, we won't send you anymore emails ... ever. Sorry to see you go. If you change your mind, email us at"
   agree_privacy_policy: "I am aware of and agree with the %{solaro_trade_mark} %{terms_link} and %{privacy_and_policy}"
 
 

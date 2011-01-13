@@ -19,7 +19,3 @@
     You can also copy and paste this link into your browser:
 %tr
   %td= link_to register_parent_url(@notification.activation_code), register_parent_url(@notification.activation_code)
-%tr
-  %td
-    Click here to
-    = link_to "unsubscribe from receiving #{configatron.solaro_trade_mark} email messages.",confirm_unsubscribe_url(:activation_code => @notification.activation_code)
