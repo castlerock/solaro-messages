@@ -63,7 +63,7 @@ en:
     button:
       back: "Back"
     hints:
-      view_report: "View Reports for this child"
+      view_report: "View Reports for this student"
     assessment_report:
       title: "Practice Sessions Report"
       course_title: "%{course_name} Practice Tests and Quizzes"
@@ -82,7 +82,7 @@ en:
       status: "Status"
       activity: "Activity with Date and Time"
       stars: "Stars"
-      view_hint: "View reports for this child"
+      view_hint: "View reports for this student"
       today: "Today"
       yesterday: "Yesterday"
       this_week: "This Week"
