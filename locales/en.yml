@@ -49,6 +49,17 @@ en:
       test_and_quiz_results: "Practice Test and Quiz Results"
     assignment_report:
       no_student_assessment: "This assignment has not yet assigned to any of your student."
+    assessment_report:
+      title: "Practice Sessions Report"
+      course_title: "{{course_name}} Practice Tests and Quizzes"
+      date: "Date"
+      type: "Type"
+      score: "Score"
+      questions: "Questions"
+      status: "Status"
+      results_hint: "These are practice test and quiz results for this class."
+      select_hint: "Select a Class to view the Assessment results for this student."
+      found_none: "No assessments found for this criteria."
   parent_reports:
     title:
       reports: "Reports"
