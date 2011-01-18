@@ -161,6 +161,7 @@ en:
     success_msg: "IP Addresses successfully added."
     failure_msg: "One or more IP Address is invalid."
     duplicate_error_msg: "Can't enter duplicate ip addresses."
+    invalid_ip_submask_msg: "One or more IP Address/Submask/Prefix is invalid."
     required_msg: "IP Addresses required."
   merchant_address:
     name: "Castle Rock Research Corp"
