@@ -51,7 +51,7 @@ en:
       no_student_assessment: "This assignment has not yet assigned to any of your student."
     assessment_report:
       title: "Practice Sessions Report"
-      course_title: "{{course_name}} Practice Tests and Quizzes"
+      course_title: "%{course_name} Practice Tests and Quizzes"
       date: "Date"
       type: "Type"
       score: "Score"
