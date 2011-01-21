@@ -267,5 +267,8 @@ en:
   unsubscribe_failure_message: "Not a valid request to unsubscribe from SOLARO mailing list."
   unsubscribe_me_text: "Ok, we won't send you anymore emails ... ever. Sorry to see you go. If you change your mind, email us at"
   agree_privacy_policy: "I am aware of and agree with the %{solaro_trade_mark} %{terms_link} and %{privacy_and_policy}"
+  unblock_ip_by_teacher:
+    success: "School is successfully unblocked for 2 hours"
+    failure: "School has already been unblocked"
 
 
