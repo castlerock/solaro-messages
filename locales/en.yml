@@ -239,6 +239,8 @@ en:
     subheading2: "To get started, choose any topic in the class lists to start your lessons."
     subheading3: "As you complete lessons and quizzes, your progress bar will fill up."
   solaro_admin:
+    unblocked_schools:
+      no_records: "There are no unblocked schools in the system."
     demo_accounts:
       create_success_message: "Demo student account has been created successfully"
     school:
