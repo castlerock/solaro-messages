@@ -8,9 +8,9 @@ en:
   rule_quiz: "%{test_type} : %{test_message} Rules"
   rule_paper_pencil: "You may use paper, a pencil, and a calculator."
   rule_quiz_once: "Each %{test_message} can be taken only once."
-  rule_end_test_early: "You may end a %{test_type} %{test_message} early without answering every question. Your %{test_type} %{test_message} will be saved for you to finish up later. To finish a saved %{test_type} %{test_message}, find the \"Finish up\" link on the \"%{test_type} Results\" page."
+  rule_end_test_early: "You may end a %{test_type} %{test_message} early without answering every question. Your %{test_type} %{test_message} will be saved for you to finish later. To finish a saved %{test_type} %{test_message}, find the \"Finish up\" link on the \"%{test_type} Results\" page."
   rule_guessing: "If you are not sure about an answer, click \"Just Guessing\". That question will be marked with a special icon so you can review it later."
-  rule_session_inactive: "If your session is inactive for %{inactivity_session_timeout} minutes, your %{test_type} %{test_message} progress will be automatically saved for you to finish up later."
+  rule_session_inactive: "If your session is inactive for %{inactivity_session_timeout} minutes, your %{test_type} %{test_message} progress will be automatically saved for you to finish later."
   activity_login: "Logged in"
   activity_logout: "Logged out"
   activity_quiz_take: "Taken a quiz"
@@ -32,7 +32,7 @@ en:
   reports_parent_topics_title: "Topics"
   test_finish: "You have finished the test."
   ela_test_finish: "You have finished the practice test."
-  test_save: "Your test is saved successfully."
+  test_save: "Your Practice Test has been saved."
   standard_extension: "This lesson does not appear in your standards, however our curriculum experts believe it is important for students in this grade to be exposed to it."
   cad: CAD
   usd: USD

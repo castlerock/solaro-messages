@@ -35,14 +35,6 @@
         %br= "Card Exp: #{success_response.card_details['expiry_month']}/#{success_response.card_details['expiry_year']}"
         - billing_address = success_response.billing_address.attributes
         %br= "Name: #{billing_address['name']}"
-        %br= "Address Line 1: #{billing_address['address1']}"
-        %br= "Address Line 2: #{billing_address['address2']}"
-        %br= "City: #{billing_address['city']}"
-        %br= "State/Province: #{billing_address['state']}"
-        %br= "Zip/Postal Code: #{billing_address['zip']}"
-        %br= "Country: #{billing_address['country']}"
-        %br= "Phone Number: #{billing_address['phone']}"
-        %br= "Email Address: #{billing_address['email']}"
         %br
       %br Your credit card will be billed as 'Castle Rock Research Corp'.
       %br
@@ -58,7 +50,7 @@
       %br The following transactions were not able to be processed
       %br
       %br= (render :partial => 'detail_receipt', :collection => failed_responses, :as => :response)
-    %br=  "For more information, please login to www.SOLARO.com to view your account details, the #{configatron.solaro_trade_mark} License Agreement and our Privacy Policy. Should you have any questions or comments, please contact us at: 1-866-325-5299"
+    %br=  "For more information, please log into www.SOLARO.com to view your account details, the #{configatron.solaro_trade_mark} License Agreement, and our Privacy Policy."
     %br
     %br= "Thank you for using #{configatron.solaro_trade_mark},"
 
