@@ -272,5 +272,6 @@ en:
   unblock_ip_by_teacher:
     success: "School was successfully unblocked"
     failure: "School is already unblocked"
-  assignment_completed: "Your results will appear once teacher closes the assignment."
+  assignment_completed: "After your teacher grades the assignment you will be able to review the questions and solutions."
+
 
