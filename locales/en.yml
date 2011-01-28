@@ -157,6 +157,7 @@ en:
     tax_message: "Taxes are applied as per the country and province / state."
     card_updated: "Credit Card details was successfully updated."
     card_update_failed: "Credit Card details updation failed."
+    change_card_header: "Select the Student to change associated Credit Card."
   ip_address:
     success_msg: "IP Addresses successfully added."
     failure_msg: "One or more IP Address is invalid."
