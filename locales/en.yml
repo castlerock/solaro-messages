@@ -233,7 +233,7 @@ en:
     practice_test_and_quiz_questions: "Practice Test and Quiz Questions"
     no_reading_selections_msg: "No reading selections are available"
     no_reading_practice_msg: "No reading practice is available"
-  default_flash_message: "Suggestions? Use the Solaro Help button on the right to give us feedback."
+  default_flash_message: "Suggestions? Use the SOLARO Help button on the right to give us feedback."
   student_first_time_login_message:
     heading: "Hey!"
     subheading1: "It looks like this is your first time logged into Solaro."
