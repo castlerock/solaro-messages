@@ -1,0 +1,21 @@
+%tr
+  %td #{@parent.salutation} #{@parent.last_name},
+
+%tr
+  %td
+    Your premium #{configatron.solaro_trade_mark} at Home monthly payment due on {#{@student.expires_at.strftime("%b %d %Y")}} could not be processed.
+    You can update your credit card information by logging into your SOLARO parent account at
+    = link_to configatron.site_url, configatron.site_url
+
+%tr
+  %td
+    If you have forgotten your password, please go to
+    = link_to configatron.site_url.to_s+"/forgot_password", configatron.site_url.to_s+"/forgot_password"
+    to enter your account email address.
+    We will send you a link in an email message so you can choose a new password.
+
+%p= "If you experience any problems, please contact us at #{configatron.support.mail} or call 1-866-325-5299."
+
+%p= "The #{configatron.solaro_trade_mark} Team"    
+
+    
