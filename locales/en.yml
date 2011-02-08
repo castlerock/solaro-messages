@@ -242,6 +242,7 @@ en:
   solaro_admin:
     unblocked_schools:
       no_records: "There are no unblocked schools in the system."
+      no_student_records: "There are no students access at this time."
     demo_accounts:
       create_success_message: "Demo student account has been created successfully"
     school:
