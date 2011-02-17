@@ -280,5 +280,6 @@ en:
     free:
       blocked: "This page is not accessible to your IP address"
     beta:
-      blocked: "This is not accessible for beta user"
-
+      blocked: "This page is not accessible for beta user"
+    other:
+      blocked: "This page is not accessible for you"
