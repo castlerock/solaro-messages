@@ -277,9 +277,10 @@ en:
   assignment_completed: "After your teacher grades the assignment you will be able to review the questions and solutions."
 
   access:
-    free:
-      blocked: "This page is not accessible to your IP address"
-    beta:
-      blocked: "This page is not accessible for beta user"
-    other:
-      blocked: "This page is not accessible for you"
+    student:
+      free:
+        blocked: "This page is not accessible to your IP address"
+      beta:
+        blocked: "This page is not accessible for beta user"
+      other:
+        blocked: "This page is not accessible for you"
