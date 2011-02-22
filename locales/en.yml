@@ -5,7 +5,7 @@
 
 
 en:
-  rule_quiz: "%{test_type} : %{test_message} Rules"
+  rule_quiz: "%{test_type} %{test_message} Rules"
   rule_paper_pencil: "You may use paper, a pencil, and a calculator."
   rule_quiz_once: "Each %{test_message} can be taken only once."
   rule_end_test_early: "You may end a %{test_type} %{test_message} early without answering every question. Your %{test_type} %{test_message} will be saved for you to finish later. To finish a saved %{test_type} %{test_message}, find the \"Finish up\" link on the \"%{test_type} Results\" page."
@@ -156,7 +156,7 @@ en:
     error_header: "Payment can't be processed because of the following reasons."
     tax_message: "Taxes are applied as per the country and province / state."
     card_updated: "Credit Card details was successfully updated."
-    card_update_failed: "Credit Card details updation failed."
+    card_update_failed: "Credit Card update failed. Please check card information and try again."
     change_card_header: "Select the Student to change associated Credit Card."
   ip_address:
     success_msg: "IP Addresses successfully added."
@@ -224,7 +224,7 @@ en:
         send: "Send Invite"
         resend: "Resend Invite"
   forgot_password:
-    school_admin_activation_required: "Admin has not yet approved your account. Please wait until you get an activation email from solaro admin. "
+    school_admin_activation_required: "Admin has not yet approved your account. Please wait until you get an activation email from the SOLARO administrator. "
     pending_activation: "Your account is not yet activated. Please activate your account first!!"
     user_not_found: "There is no user with that email address. Please try again after checking that the address has been entered correctly." 
     username_not_found: "Please enter an email address and try again. If you login to %{solaro_trade_mark} with a username, please ask your teacher or parent to reset your password in their %{solaro_trade_mark} accounts."
@@ -240,12 +240,13 @@ en:
   default_flash_message: "Suggestions? Use the SOLARO Help button on the right to give us feedback."
   student_first_time_login_message:
     heading: "Hey!"
-    subheading1: "It looks like this is your first time logged into Solaro."
+    subheading1: "It looks like this is your first time logged into SOLARO."
     subheading2: "To get started, choose any topic in the class lists to start your lessons."
     subheading3: "As you complete lessons and quizzes, your progress bar will fill up."
   solaro_admin:
     unblocked_schools:
       no_records: "There are no unblocked schools in the system."
+      no_student_records: "There are no students access at this time."
     demo_accounts:
       create_success_message: "Demo student account has been created successfully"
     school:
@@ -270,13 +271,20 @@ en:
     change_email_approved: "You had changed your email address successfully"
     child_request_pending: "You had requested to add parent %{to_email}"
     child_request_approved: "You had successfuly added the parent %{to_email}"
-  unsubscribe_success_message: "You are successfully unsubscribed from SOLARO mailing list."
-  unsubscribe_failure_message: "Not a valid request to unsubscribe from SOLARO mailing list."
-  unsubscribe_me_text: "Ok, we won't send you anymore emails ... ever. Sorry to see you go. If you change your mind, email us at"
+  unsubscribe_success_message: "You are successfully unsubscribed from the SOLARO mailing list."
+  unsubscribe_failure_message: "Not a valid request to unsubscribe from the SOLARO mailing list."
+  unsubscribe_me_text: "Ok, we won't send you anymore emails ... ever. Sorry to see you go. If you change your mind, email us at support@solaro.com"
   agree_privacy_policy: "I am aware of and agree with the %{solaro_trade_mark} %{terms_link} and %{privacy_and_policy}"
   unblock_ip_by_teacher:
     success: "School was successfully unblocked"
     failure: "School is already unblocked"
   assignment_completed: "After your teacher grades the assignment you will be able to review the questions and solutions."
 
-
+  access:
+    student:
+      free:
+        blocked: "This page is not accessible to your IP address"
+      beta:
+        blocked: "This page is not accessible for beta user"
+      other:
+        blocked: "This page is not accessible for you"
