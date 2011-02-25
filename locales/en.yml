@@ -248,6 +248,8 @@ en:
     school:
       decline_school_success: 'School has been successfully declined'
       decline_school_failure: 'School has not been declined'
+    course_management:
+      rco_created: 'Course successfully added to regional course options.'
   teacher:
     invalid_activation_link: "Oops!! Invalid activation link."
     invitation_approved: "This invitation with this activation link is already approved. Please login."
