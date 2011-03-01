@@ -207,6 +207,7 @@ en:
     no_classes_created: 'You have not created any classes. On the "My Classes" page choose the "Add a new class" button.'
     exists_in_another_course: "Warning : Student is already subscribed to %{course_title} with another Teacher. Adding him/her will eject the student from other %{course_title} class."
     bulk_student_creation_not_allowed: "For this class you cant be able to create 1 or more student account."
+    unique_first_and_last_name: "please provide the unique first and last name"
     invite_parent:
       add_email_address: "Add email address"
     invitation_status:
