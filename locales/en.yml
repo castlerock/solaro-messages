@@ -200,6 +200,8 @@ en:
     teacher_reactivated: "The teacher account has been reactivated."
     teacher_created: "A new teacher account has been added. The teacher has been sent an invitation by email"
     teacher_resend_invite: "Resent invitation successfully"
+    email_present: "Email already in use. Would you like to login or have you forgotten your password?"
+    email_present_with_another_school: "This teacher account is associated with another school. Please contact the teacher so he/she can request the other school remove him/her from its list of teachers"
   teacher_class:
     add_student_to_class_message: "Add student to selected classes"
     not_authorized_to_add_class_or_student: "Your account has been deactivated by Admin."
