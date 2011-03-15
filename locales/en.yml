@@ -204,8 +204,6 @@ en:
     email_present_with_another_school: "This teacher account is associated with another school. Please contact the teacher so he/she can request the other school remove him/her from its list of teachers"
   teacher_class:
     add_student_to_class_message: "Add student to selected classes"
-    not_authorized_to_add_class_or_student: "Your account has been deactivated by Admin."
-    not_associated_with_school: "Your account is curently not associated with a school."
     not_authorized_to_view_students: "You are not authorized to view student list."
     bulk_students_created_message: "%{no_of_students} has been added for this class successfully."
     no_assessments: "There are no Assignments with the selected Class and Status"
@@ -260,6 +258,7 @@ en:
       rco_created: 'Course successfully added to regional course options.'
       rco_updated: 'Regional Course Options updated successfully.'
   teacher:
+    deactivated_message: "Your account is not linked to any school. To use SOLARO your account must be linked to a school."
     invalid_activation_link: "Oops!! Invalid activation link."
     invitation_approved: "This invitation with this activation link is already approved. Please login."
     parent_created: "Parent Account is created successfully."
