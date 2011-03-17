@@ -111,6 +111,10 @@ en:
       lessons: "Lessons"
       lesson_status: "Lesson Status"
       completed_questions: "Completed Questions"
+      universal_course_without_region_units: "This class was created by our curriculum experts to represent a broad set of topics and concepts that are
+          age and developmentally appropriate for this grade level.
+          Regional Standards and Outcomes were not used in creating this class. As such there are no relationships that
+          can be shown in this report."
     calendar_report:
       note: "Note"
       assessments_quizzes: "Practice Quizzes and Tests"
