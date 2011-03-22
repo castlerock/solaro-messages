@@ -289,6 +289,8 @@ en:
     success: "School was successfully unblocked"
     failure: "School is already unblocked"
   assignment_completed: "After your teacher grades the assignment you will be able to review the questions and solutions."
+  parent:
+    student_password: "Please enter correct password to confirm the relationship."
 
   access:
     student:
