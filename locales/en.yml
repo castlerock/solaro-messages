@@ -221,7 +221,7 @@ en:
     invitation_status:
         accepted: "Accepted, account created"
         no_invitation_sent: "No invitation sent"
-        sent: "Sent, no response"
+        sent: "Sent, waiting for response"
         rejected: "Rejected, do not contact"
         no_email: "No email address"
         changed: "Changed, send invitation"
