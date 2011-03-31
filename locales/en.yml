@@ -292,7 +292,9 @@ en:
   assignment_completed: "After your teacher grades the assignment you will be able to review the questions and solutions."
   parent:
     student_password: "Please enter correct password to confirm the relationship."
-
+    course_updated: "Classes have been updated."
+    error_adding_courses: "Error adding classes, try later."
+    
   access:
     student:
       free:
