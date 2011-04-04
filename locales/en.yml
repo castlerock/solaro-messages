@@ -180,6 +180,7 @@ en:
       teacher_class:
         lable: "Section/Cohort/Block"
   student(s): "student(s)"
+  students: "students"
   school:
     status_info:
       send_message: "New <br/> Send activation email"
