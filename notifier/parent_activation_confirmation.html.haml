@@ -1,0 +1,11 @@
+%tr
+  %td
+    Hi #{@notification.profile.first_name},
+%tr
+  %td
+    Your #{configatron.solaro_trade_mark} Parent account has been created, and you can now access
+    #{configatron.solaro_trade_mark} to see your child progress in learning by visiting
+    = link_to configatron.site_url, configatron.site_url
+%tr
+  %td
+    Your Username is your email address: #{@notification.to_email}
