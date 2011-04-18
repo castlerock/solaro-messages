@@ -57,7 +57,7 @@ en:
       score: "Score"
       questions: "Questions"
       status: "Status"
-      results_hint: "These are practice test and quiz results for this class."
+      results_hint: "These are the practice test and quiz results for this student."
       select_hint: "Select a Class to view the Assessment results for this student."
       found_none: "No assessments found for this criteria."
   parent_reports:
@@ -83,7 +83,7 @@ en:
       score: "Score"
       questions: "Questions"
       status: "Status"
-      results_hint: "These are practice test and quiz results for this class."
+      results_hint: "These are the practice test and quiz results for this student."
       select_hint: "Select a Class to view the Assessment results for this child."
       found_none: "No practice sessions have been completed."
     activity_report:
@@ -104,7 +104,7 @@ en:
       sections: "Sections"
       lessons: "Lessons"
       test_and_quiz_results: "Practice Test and Quiz Results"
-      view_hint: "View reports for this child."
+      view_hint: "View reports for this student."
     outcome_report:
       outcome: "Standard"
       assessments: "Assessments"
@@ -274,7 +274,7 @@ en:
     invitation_approved: "This invitation with this activation link is already approved. Please login."
     parent_created: "Parent Account is created successfully. Please login."
     invalid_email: "This address cannot be used for a parent account."
-    ip_address_added: "Your Ip address has been added to School."
+    ip_address_added: "Your IP address has been added to School."
   notification:
     register_pending: "You had requested to register"
     register_approved: "Your requet to Register is approved"
@@ -293,8 +293,8 @@ en:
   unsubscribe_me_text: "Ok, we won't send you anymore emails ... ever. Sorry to see you go. If you change your mind, email us at support@solaro.com"
   agree_privacy_policy: "I am aware of and agree with the %{solaro_trade_mark} %{terms_link} and %{privacy_and_policy}"
   unblock_ip_by_teacher:
-    success: "School was successfully unblocked"
-    failure: "School is already unblocked"
+    success: "School was successfully unblocked."
+    failure: "School is already unblocked."
   assignment_completed: "After your teacher grades the assignment you will be able to review the questions and solutions."
   parent:
     student_password: "Please enter correct password to confirm the relationship."
