@@ -298,26 +298,36 @@ en:
     course_updated: "Classes have been updated."
     error_adding_courses: "Error adding classes, try later."
     
-  access:
-    student:
-      free:
-        blocked: "This page is not accessible to your IP address"
-        mobile_api_blocked: "This resource is not accessible to your IP address"
-      beta:
-        blocked: "This page is not accessible for beta user"
-      other:
-        blocked: "This page is not accessible for you"
-        
-  free_registration_without_email: "Your free %{solaro_trade_mark} at School account has been activated.<br /><br />You
-                                     can now login to %{solaro_trade_mark} with your <strong>%{username}</strong> and the password 
-                                     you chose during registration.<br /><br />If you cannot remember your password, ask your teacher 
-                                     who is able to reset your password from the teacher account."
-  free_registration_with_email: "An account activation email has been sent to <strong>%{useremail}</strong>. Please 
-                                  check your email account for a message from %{solaro_trade_mark}. Follow the 
-                                  instructions to complete creating your account. <br /><br />If you did not 
-                                  receive the email to confirm your %{solaro_trade_mark} account, please update 
-                                  the spam settings in your email account by adding the support@solaro.com address 
-                                  to your contact or 'safe-sender' list. This will ensure your email provider does 
-                                  not block our email messages or mark them as spam. <br /><br />"
-  resend_activation_email: "%{email_link} to resend the activation email."
-  coupon_expiry_msg: "The introductory price offer is no longer available."
+    access:
+      student:
+        free:
+          blocked: "This page is not accessible to your IP address"
+        beta:
+          blocked: "This page is not accessible for beta user"
+        other:
+          blocked: "This page is not accessible for you"
+
+    free_registration_without_email: "Your free %{solaro_trade_mark} at School account has been activated.<br /><br />You
+                                       can now login to %{solaro_trade_mark} with your <strong>%{username}</strong> and the password 
+                                       you chose during registration.<br /><br />If you cannot remember your password, ask your teacher 
+                                       who is able to reset your password from the teacher account."
+    free_registration_with_email: "An account activation email has been sent to <strong>%{useremail}</strong>. Please 
+                                    check your email account for a message from %{solaro_trade_mark}. Follow the 
+                                    instructions to complete creating your account. <br /><br />If you did not 
+                                    receive the email to confirm your %{solaro_trade_mark} account, please update 
+                                    the spam settings in your email account by adding the support@solaro.com address 
+                                    to your contact or 'safe-sender' list. This will ensure your email provider does 
+                                    not block our email messages or mark them as spam. <br /><br />"
+    resend_activation_email: "%{email_link} to resend the activation email."
+    coupon_expiry_msg: "The introductory price offer is no longer available."
+
+    # this block mobile_api is used for only mobile api related stuffs
+    # be careful before change
+    mobile_api:
+      access:
+        student:
+          free:
+            mobile_api_blocked: "This resource is not accessible to your IP address"
+
+      course_select:
+        course_limit_msg: "Please select at least one course and at most %{max_course_select} courses."
