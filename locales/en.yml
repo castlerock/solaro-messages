@@ -154,6 +154,9 @@ en:
     change_email_message: "Please check your new email address for a confirmation message."
     error_changing_email: "Error updating email address. Please try again."
     email_changed: "Your email address has been changed. Please login using your new email address."
+    password:
+      long: "should be less than 32 characters."
+      short: "should be greater than 7 characters."
   upgrade_account:
     success_fully_updated: "Successfully updated."
     please_select_one_child: "Please select at least one child"
