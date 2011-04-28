@@ -8,33 +8,26 @@
     - unless success_responses.blank?
       = "Your payment to #{configatron.solaro_trade_mark} was successful. Thank you. The transaction details are as follows:"
       - success_responses.each do |success_response|
-        - student_profile_id = success_response.student_profile_id
         %br
-        %br= "Purchase: #{student_profile_full_name(student_profile_id)} #{configatron.solaro_trade_mark} Premium Student Account License"
-        - student = StudentProfile.find_by_id(student_profile_id).user
-        - username = student.attributes["username"] || student.attributes["email"]
-        %br= "Username/email: #{username}"
+        %br= "Purchase: #{success_response.full_name} #{configatron.solaro_trade_mark} Premium Student Account License"
+        %br= "Username/email: #{success_response.login_credential}"
         %br= "Date: #{success_response.trans_date.to_date.to_s(:month_date_and_year)}"
         %br= "Payment ID: #{success_response.order_id}"
         %br= "Authorization: #{success_response.auth_code}"
         %br
-        - total_tax = Order.total_tax(:country => success_response.country, :region => success_response.region, :children_count => 1, :ip_address => success_response.ip_address, :amount => @base_amount.to_s, :location_declaration => success_response.location_declaration)
-        - net_amount = BigDecimal.new(success_response.trans_amount.to_s)
+          %strong= "Amount: #{success_response.currency} #{success_response.base_amount.to_dollar}"
         %br
-          %strong= "Amount: #{success_response.currency} #{Order.monthly_subscription_cost(:children_count => 1, :amount => @base_amount.to_s).to_dollar}"
+          %strong= "Taxes: #{success_response.currency} #{success_response.tax.to_dollar}"
         %br
-          %strong= "Taxes: #{success_response.currency} #{total_tax.to_dollar}"
+          %strong= "Total: #{success_response.currency} #{success_response.net_amount.to_dollar}"
         %br
-          %strong= "Total: #{success_response.currency} #{net_amount.to_dollar}"
-        %br
-          %strong= "Paid: #{success_response.currency} #{net_amount.to_dollar}"
+          %strong= "Paid: #{success_response.currency} #{success_response.net_amount.to_dollar}"
         %br
         %br= "Payment Plan: Monthly (billed on #{success_response.trans_date.to_date.day.ordinalize} of each month)."
         %br= "Payment Period:#{success_response.first_recur_date.to_s(:month_date_and_year)} - #{success_response.next_recur_date.to_s(:month_date_and_year)}"
-        %br= "Card#: *#{success_response.card_details['card_number']} "
-        %br= "Card Exp: #{success_response.card_details['expiry_month']}/#{success_response.card_details['expiry_year']}"
-        - billing_address = success_response.billing_address.attributes
-        %br= "Name: #{billing_address['name']}"
+        %br= "Card#: *#{success_response.card_number} "
+        %br= "Card Exp: #{success_response.expiry_month}/#{success_response.expiry_year}"
+        %br= "Name: #{success_response.payer_name}"
         %br
       %br Your credit card will be billed as 'Castle Rock Research Corp'.
       %br
