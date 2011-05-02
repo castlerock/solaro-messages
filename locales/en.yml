@@ -340,3 +340,6 @@ en:
       device_identifier_msg: "Please try to login from the device you registered."
       invalid_credentials: "Invalid credentials."
       mobile_user_trial_error_msg: "Your account has not been upgraded to premium."
+  
+    password:
+      invalid_password: "Invalid password."
