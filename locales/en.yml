@@ -152,6 +152,7 @@ en:
     payment_alert_text: "Do not go to any other page or refresh the web browser otherwise your payment may be canceled or a duplicate payment may be made."
     update_credit_card_text: "Do not go to any other page or refresh the web browser otherwise your credit card update may fail."
     change_email_message: "Please check your new email address for a confirmation message."
+    email_already_used_students: "This email address is already being used for a student account. Please use a different email address for SOLARO to communicate with the parent."
     error_changing_email: "Error updating email address. Please try again."
     email_changed: "Your email address has been changed. Please login using your new email address."
     password:
