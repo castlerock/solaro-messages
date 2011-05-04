@@ -28,7 +28,7 @@ en:
   new_note: "New note created"
   update_note: "Note updated"
   delete_note: "Note deleted"
-  reports_parent_courses_title: "Classes"
+  reports_parent_courses_title: 'Classes'
   reports_parent_topics_title: "Topics"
   test_finish: "You have finished the test."
   ela_test_finish: "You have finished the practice test."
