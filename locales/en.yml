@@ -168,6 +168,7 @@ en:
     card_updated: "Credit Card details was successfully updated."
     card_update_failed: "Credit Card update failed. Please check card information and try again."
     change_card_header: "Select the Student to change associated Credit Card."
+    cancel_failed: "The account can not be canceled, please contact %{email}"
   ip_address:
     success_msg: "IP Addresses successfully added."
     failure_msg: "One or more IP Address is invalid."

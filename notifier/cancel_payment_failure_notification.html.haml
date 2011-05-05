@@ -1,0 +1,12 @@
+%tr
+  %td
+    A parent has attempted to cancel an account but the transaction failed.  The account details are as follows:
+%tr
+  %td
+    %b Parent: #{@parent.email}
+%tr
+  %td
+    %b Order ID: #{@order_details.merchant_order_id}
+%tr
+  %td
+    %b Merchant: #{@order_details.attributes['currency']}
