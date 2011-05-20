@@ -140,6 +140,7 @@ en:
     reset_password_error_msg: "Error in sending email. Please try again."
     not_activated_error_msg: "Your account is not yet activated."
     mobile_user_trial_error_msg: "Your account has not been upgraded to premium."
+    mobile_user_upgrade_msg: "Please use your mobile device to upgrade your subscription"
   user_registration:
     max_course_list: "After logging in, the student will be able to choose up to %{max_course_list} classes in Math, Science, and English Language Arts from the following list:"
     student_added_successfully: "Child successfully added. Do you want to add another child?"
