@@ -165,7 +165,7 @@ en:
     upgraded_already: "Your account has already been upgraded. Thank-you."
     upgrade_accounts: "Some of your child accounts can be upgraded to Premium accounts"
   payment:
-    error_header: "Payment can't be processed because of the following reasons."
+    error_header: "Payment can't be processed because of the following reasons:"
     tax_message: "Taxes are applied as per the country and province / state."
     card_updated: "Credit Card details was successfully updated."
     card_update_failed: "Credit Card update failed. Please check card information and try again."
