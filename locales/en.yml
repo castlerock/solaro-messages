@@ -203,6 +203,7 @@ en:
         updated: Teacher Profile updated successfully.
         reset_password: "Instructions to reset teacher password were sent to %{email}."
         change_email: An email will be sent to the updated email address with a link to verify this change.
+        pending_teacher_reset_password: "Teacher account is not yet activated. You cannot reset the password."
       update: "Profile was updated successfully"
     student:
       teacher_deactivated_message: "Your teacher has been deactivated by Admin. You are no longer authorized to view class details."
