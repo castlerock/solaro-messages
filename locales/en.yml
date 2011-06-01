@@ -143,7 +143,7 @@ en:
     mobile_user_upgrade_msg: "Please use your mobile device to upgrade your subscription"
   user_registration:
     max_course_list: "After logging in, the student will be able to choose up to %{max_course_list} classes in Math, Science, and English Language Arts from the following list:"
-    student_added_successfully: "Child successfully added. Do you want to add another child?"
+    student_added_successfully: "Do you want to add another child?"
     student_deleted_successfully: "Child successfully deleted."
     session_expired: "Session expired. Please try again."
     child_account_created: "Your %{solaro_trade_mark} Student Account has been created."
