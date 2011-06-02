@@ -173,11 +173,11 @@ en:
     cancel_failure: "The account can not be canceled, please contact %{email}"
     cancel_success: "The account has been canceled."
   ip_address:
-    success_msg: "IP Addresses successfully added."
+    success_msg: "IP Address successfully added."
     failure_msg: "One or more IP Address is invalid."
-    duplicate_error_msg: "Can't enter duplicate ip addresses."
+    duplicate_error_msg: "Can't enter duplicate ip address."
     invalid_ip_submask_msg: "One or more IP Address/Submask/Prefix is invalid."
-    required_msg: "IP Addresses required."
+    required_msg: "IP Address required."
   merchant_address:
     name: "Castle Rock Research Corp"
     address1: "2340 Manulife Place"
