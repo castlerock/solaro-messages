@@ -277,7 +277,7 @@ en:
     deactivated_message: "Your account is not linked to any school. To use %{solaro_trade_mark}, your account must be linked to a school."
     invalid_activation_link: "Oops!! Invalid activation link."
     invitation_approved: "This invitation with this activation link is already approved. Please login."
-    parent_created: "Parent Account is created successfully. Please login."
+    parent_created: "Your parent account was created successfully. Please login."
     invalid_email: "This address cannot be used for a parent account."
     ip_address_added: "Your IP address has been added to School."
   notification:
