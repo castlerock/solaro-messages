@@ -322,7 +322,7 @@ en:
                                     to your contact or 'safe-sender' list. This will ensure your email provider does 
                                     not block our email messages or mark them as spam. <br /><br />"
     resend_activation_email: "%{email_link} to resend the activation email."
-    coupon_expiry_msg: "The introductory price offer is no longer available."
+  coupon_expiry_msg: "The introductory price offer is no longer available."
 
   # this block mobile_api is used for only mobile api related stuffs
   # be careful before change
