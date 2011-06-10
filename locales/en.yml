@@ -243,7 +243,7 @@ en:
         send: "Send Invite"
         resend: "Resend Invite"
   forgot_password:
-    school_admin_activation_required: "Admin has not yet approved your account. Please wait until you get an activation email from the SOLARO administrator. "
+    school_admin_activation_required: "Your account has not been activated. Please check the email account you used when signing up for a message from SOLARO or go to the \"Forgot Password\" page to get the email resent."
     pending_activation: "Your account is not yet activated. Please activate your account first!!"
     user_not_found: "There is no user with that email address. Please try again after checking that the address has been entered correctly." 
     username_not_found: "Please enter an email address and try again. If you login to %{solaro_trade_mark} with a username, please ask your teacher or parent to reset your password in their %{solaro_trade_mark} accounts."
