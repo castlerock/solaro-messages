@@ -353,3 +353,10 @@ en:
   
     password:
       invalid_password: "Invalid password."
+
+  cms_api:
+    error:
+      invalid_params: "It is not a proper update call, please check the parameters"
+    answers:
+      updated: "Answers are updated successfully"
+      not_updated: "Could not update answers"
