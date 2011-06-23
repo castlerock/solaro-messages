@@ -191,6 +191,9 @@ en:
         lable: "A class already exists"
   student(s): "student(s)"
   students: "students"
+  assesment_review:
+    rejected_info: "This question is no longer available"
+    approved_info: "Click to see the question with answer"
   school:
     status_info:
       send_message: "New <br/> Send activation email"
