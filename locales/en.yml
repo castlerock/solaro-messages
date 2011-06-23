@@ -188,7 +188,7 @@ en:
   activerecord:
     attributes:
       teacher_class:
-        lable: "Section/Cohort/Block"
+        lable: "A class already exists"
   student(s): "student(s)"
   students: "students"
   school:
