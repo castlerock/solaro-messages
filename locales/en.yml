@@ -188,7 +188,7 @@ en:
   activerecord:
     attributes:
       teacher_class:
-        lable: "A class already exists"
+        lable: "A class"
   student(s): "student(s)"
   students: "students"
   assesment_review:
