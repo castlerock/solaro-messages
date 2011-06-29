@@ -225,7 +225,7 @@ en:
   teacher_class:
     add_student_to_class_message: "Add student to selected classes"
     not_authorized_to_view_students: "You are not authorized to view student list."
-    bulk_students_created_message: "%{no_of_students} has been added for this class successfully."
+    bulk_students_created_message: "%{no_of_students} been added to this class successfully."
     no_assessments: "There are no Assignments with the selected Class(es) and Status"
     no_classes_created: 'You have not created any classes. On the "My Classes" page choose the "Add a new class" button.'
     exists_in_another_course: "Warning : Student is already subscribed to %{course_title} with another Teacher. Adding him/her will eject the student from other %{course_title} class."
