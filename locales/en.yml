@@ -58,7 +58,7 @@ en:
       score: "Score"
       questions: "Questions"
       status: "Status"
-      results_hint: "These are the practice test and quiz results for this student."
+      results_hint: "These are the student practice test and quiz results for this student."
       select_hint: "Select a Class to view the Assessment results for this student."
       found_none: "No assessments found for this criteria."
   parent_reports:
