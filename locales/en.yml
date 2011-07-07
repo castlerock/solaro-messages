@@ -38,6 +38,7 @@ en:
   cad: CAD
   usd: USD
   unknown_error: "Something went wrong"
+  question_no_longer_available: "This question is no longer available."
   student_reports:
     calendar_report:
       assessments_quizzes: "Practice Quizzes and Tests"
