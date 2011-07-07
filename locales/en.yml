@@ -357,6 +357,9 @@ en:
     password:
       invalid_password: "Invalid password."
 
+    params:
+      not_passed: "Invalid request parameters"
+
   cms_api:
     error:
       invalid_params: "It is not a proper update call, please check the parameters"
