@@ -368,3 +368,4 @@ en:
     answers:
       updated: "Answers are updated successfully"
       not_updated: "Could not update answers"
+      already_mis_keyed: "This questions is already miss-key, and it can't be miss-key again"
