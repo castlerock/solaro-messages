@@ -39,6 +39,7 @@ en:
   usd: USD
   unknown_error: "Something went wrong"
   question_no_longer_available: "This question is no longer available."
+  question_re_graded: "This question has been re-graded. The correct answer was changed and the grades may have been updated."
   student_reports:
     calendar_report:
       assessments_quizzes: "Practice Quizzes and Tests"
