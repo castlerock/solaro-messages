@@ -26,7 +26,7 @@ en:
   new_discussion: "New discussion"
   new_discussion_answer: "New discussion answer"
   new_discussion_comment: "New discussion comment"
-  new_note: "New note created"
+  new_note: 'New note created'
   update_note: "Note updated"
   delete_note: "Note deleted"
   reports_parent_courses_title: 'Classes'
