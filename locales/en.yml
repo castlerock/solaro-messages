@@ -285,6 +285,7 @@ en:
       new_classes: "New Classes"
       active_classes: "Active Classes"
       disable_classes: "Disabled Classes"
+      classes_by_region: "Classes by Region"
   teacher:
     deactivated_message: "Your account is not linked to any school. To use %{solaro_trade_mark}, your account must be linked to a school."
     invalid_activation_link: "Oops!! Invalid activation link."
