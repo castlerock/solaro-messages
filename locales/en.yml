@@ -226,6 +226,7 @@ en:
     email_present: "Email already in use. Would you like to login or have you forgotten your password?"
     email_present_with_another_school: "This teacher account is associated with another school. Please contact the teacher so he/she can request the other school remove him/her from its list of teachers."
   teacher_class:
+    already_exists: "Teacher Class already exists."
     add_student_to_class_message: "Add student to the selected classes"
     not_authorized_to_view_students: "You are not authorized to view student list."
     bulk_students_created_message: "%{no_of_students} been added to this class successfully."
@@ -379,3 +380,7 @@ en:
       not_updated: "Could not update answers"
       already_mis_keyed: "This questions is already miss-key, and it can't be miss-key again"
       question_rejected: "This question has been rejected, and it can't be miss-keyed."
+  class_code:
+    invalid: "Class code invalid."
+    not_blank: "Class code can\'t be left blank."
+    max_course_limit: "Select up to %{max_course_limit} classes."
