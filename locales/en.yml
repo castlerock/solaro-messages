@@ -391,3 +391,6 @@ en:
           attributes:
             grade:
               taken: already exists for this RegionalCourseOption.
+
+  guest:
+    sign_up: "To view all of %{solaro_trade_mark} sign up now."
