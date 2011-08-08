@@ -384,3 +384,10 @@ en:
     invalid: "Class code invalid."
     not_blank: "Class code can\'t be left blank."
     max_course_limit: "Select up to %{max_course_limit} classes."
+  activerecord:
+    errors:
+      models:
+        regional_course_option:
+          attributes:
+            grade:
+              taken: already exists for this RegionalCourseOption.
