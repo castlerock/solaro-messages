@@ -394,3 +394,5 @@ en:
 
   guest:
     sign_up: "To view all of %{solaro_trade_mark} sign up now."
+    invalid_class: "You are not authorized to see this Class."
+    invalid_topic: "You are not authorized to see this Topic."
