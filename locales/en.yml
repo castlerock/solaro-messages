@@ -380,6 +380,11 @@ en:
       not_updated: "Could not update answers"
       already_mis_keyed: "This questions is already miss-key, and it can't be miss-key again"
       question_rejected: "This question has been rejected, and it can't be miss-keyed."
+    rco:
+      created: RegionalCourseOption was successfully created.
+      not_created: Could not create the RegionalCourseOption.
+      updated: RegionalCourseOption was successfully updated.
+      not_updated: Could not update the RegionalCourseOption.
   class_code:
     invalid: "Class code invalid."
     not_blank: "Class code can\'t be left blank."
