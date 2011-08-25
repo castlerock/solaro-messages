@@ -375,6 +375,10 @@ en:
     answers:
       errors:
         closed_assignment: "This assignment has already been closed by the teacher."
+    
+    assignments:
+      errors:
+        all_answered: "All the questions need to be answered."
 
   cms_api:
     error:
