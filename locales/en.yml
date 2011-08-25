@@ -371,6 +371,10 @@ en:
     subscriptions:
       product_id_not_available: "You are subscribed to the maximum number of subscription supported using one Apple account. Please use different account to purchase the subscription."
       already_active: "Your subscription is active. Something went wrong. Please ignore purchasing again."
+    
+    answers:
+      errors:
+        closed_assignment: "This assignment has already been closed by the teacher."
 
   cms_api:
     error:
