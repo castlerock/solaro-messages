@@ -203,6 +203,12 @@ en:
       pending_message: "Pending <br/> Activation email sent"
       decline_message: "Declined"
       active_message: "Active"
+      add_ip_to_school: "Add this IP Address to the School"
+      remove_ip_from_school: "Remove IP Address blocking (temporarily)"
+      ip_blocking_message: "If you are at school, but the 'School' icon is not green then students who connect from this IP address
+                            (on another computer) will not see the full version of %{solaro_trade_mark}.
+                            You must add this IP address to your school. If adding this IP Address still does not correct the issue,
+                            then click on the 'Remove IP Address blocking (temporarily)' button."
     admin:
       teacher:
         deleted: Teacher deleted.
