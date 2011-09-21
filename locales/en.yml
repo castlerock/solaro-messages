@@ -301,6 +301,7 @@ en:
     parent_created: "Your parent account was successfully created. Please login."
     invalid_email: "This address cannot be used for a parent account."
     ip_address_added: "Your IP address has been added to School."
+    account_activation_message: "Your account is activated and password successfully changed."
   notification:
     register_pending: "You had requested to register"
     register_approved: "Your request to Register is approved"
