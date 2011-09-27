@@ -422,3 +422,4 @@ en:
 
   lesson:
     deactivated_lesson: "Lesson is not available."
+    lesson_not_exist: "There are no lessons available."
