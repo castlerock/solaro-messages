@@ -317,7 +317,7 @@ en:
     child_request_approved: "You had successfully added the parent %{to_email}"
   unsubscribe_success_message: "You are successfully unsubscribed from the SOLARO mailing list."
   unsubscribe_failure_message: "Not a valid request to unsubscribe from the SOLARO mailing list."
-  unsubscribe_me_text: "Ok, we won't send you anymore emails ... ever. Sorry to see you go. If you change your mind, email us at support@solaro.com"
+  unsubscribe_me_text: "Ok, we won't send you anymore emails ... ever. Sorry to see you go. If you change your mind, email us at %{support_email}"
   agree_privacy_policy: "I am aware of and agree with the %{solaro_trade_mark} %{terms_link} and %{privacy_and_policy}"
   unblock_ip_by_teacher:
     success: "School was successfully unblocked."
@@ -345,7 +345,7 @@ en:
                                   check your email account for a message from %{solaro_trade_mark}. Follow the
                                   instructions to complete creating your account. <br /><br />If you did not
                                   receive the email to confirm your %{solaro_trade_mark} account, please update
-                                  the spam settings in your email account by adding the support@solaro.com address
+                                  the spam settings in your email account by adding the %{support_email} address
                                   to your contact or 'safe-sender' list. This will ensure your email provider does
                                   not block our email messages or mark them as spam. <br /><br />"
   resend_activation_email: "%{email_link} to resend the activation email."
