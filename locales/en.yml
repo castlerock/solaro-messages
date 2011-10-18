@@ -416,3 +416,14 @@ en:
     sign_up: "To view all of %{solaro_trade_mark} sign up now."
     invalid_class: "You are not authorized to see this Class."
     invalid_topic: "You are not authorized to see this Topic."
+
+  lesson:
+    deactivated_lesson: "Lesson is not available."
+    lesson_not_exist: "There are no lessons available."
+
+  sign_up:
+    paragraph_1: "is available for Teachers and Students to use at participating schools."
+    paragraph_2:
+      line_1: "Schools get access to standards-aligned Math, Science, and English Language Classes and all of "
+      line_2: " features for only $15.00 per student per year."
+    paragraph_3: "To find out more about %{solaro_trade_mark} School Subscriptions, please contact us at %{sales_mail}."
