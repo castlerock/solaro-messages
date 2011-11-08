@@ -77,6 +77,7 @@ en:
       topics: "Topics"
     button:
       back: "Back"
+      next: "Next"
     hints:
       view_report: "View Reports for this student"
     assessment_report:
@@ -430,3 +431,11 @@ en:
       line_1: "Schools get access to standards-aligned Math, Science, and English Language Classes and all of "
       line_2: " features for only $15.00 per student per year."
     paragraph_3: "To find out more about %{solaro_trade_mark} School Subscriptions, please contact us at %{sales_mail}."
+
+  quizbank:
+    solaro_quizbank: "Quizbank"
+    quizbank_homepage_heading: "%{solaro_quizbank}. Practice for Math, Science and English Language Arts."
+    quizbank_course_select_heading: " %{solaro_quizbank}. Practice for Math, Science and English Language Arts."
+    student_have_not_accessed_quizbank: "None of your students have used %{solaro_quizbank} yet. They can access %{solaro_quizbank} at %{site_url}/quizbank_users from a computer within the school."
+    student_have_not_accessed_quizbank_msg: "None of your students have used %{solaro_quizbank} yet."
+    teacher_outcomes_report_title: "%{solaro_quizbank} Outcomes Report"
