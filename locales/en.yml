@@ -439,3 +439,6 @@ en:
     student_have_not_accessed_quizbank: "None of your students have used %{solaro_quizbank} yet. They can access %{solaro_quizbank} at %{site_url}/quizbank_users from a computer within the school."
     student_have_not_accessed_quizbank_msg: "None of your students have used %{solaro_quizbank} yet."
     teacher_outcomes_report_title: "%{solaro_quizbank} Outcomes Report"
+    quizbank_outcome_report_info_text_p1: "Besides regular quizzes and tests, %{solaro_quizbank} is an easy way to take %{solaro_trade_mark} assessments anytime. Students can take tests of varying number of questions ranging from 6 to 20 of different grades on any subject from any teacher. It's free and students, who are inside schools, are eligible for it. Even logging in is not necessary. Although students who are not logged in, can not review the results afterwards. Students can take %{solaro_quizbank} at %{site_url}/quizbank"
+    quizbank_outcome_report_info_text_p2: "Teachers can see different stats of the %{solaro_quizbank} along with the general assessment outcome reports."
+    quizbank_outcome_report_info_text_p3: "Go to the Outcome report page"
