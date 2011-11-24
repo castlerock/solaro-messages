@@ -349,6 +349,15 @@ en:
                                   the spam settings in your email account by adding the %{support_email} address
                                   to your contact or 'safe-sender' list. This will ensure your email provider does
                                   not block our email messages or mark them as spam. <br /><br />"
+
+  free_student:
+    upgrade_message: "You have a free %{solaro_trade_mark} account given by your school or library. When away from your school or library you have limited access to %{solaro_trade_mark}. To access all of %{solaro_trade_mark} features including:
+                   <br />
+                  %{solaro_trade_mark} Mobile on an Apple iPad, iPhone or iPod Touch you will need to upgrade to a premium %{solaro_trade_mark} at Home account.  <br />
+                  "
+    upgrade_link_text: "Upgrade now for $%{base_amount}/ month"
+
+
   resend_activation_email: "%{email_link} to resend the activation email."
   coupon_expiry_msg: "The introductory price offer is no longer available."
   todo:
