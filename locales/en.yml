@@ -368,6 +368,7 @@ en:
     access:
       student:
         free:
+          check_ip_range: "You are not in allowed IP range"
           mobile_api_blocked: "This resource is not accessible to your IP address"
 
     course_select:
