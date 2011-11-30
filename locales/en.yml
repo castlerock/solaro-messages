@@ -200,6 +200,7 @@ en:
     approved_info: "Click to see the question with answer"
   school:
     status_info:
+      school_created: "School was created successfully"
       send_message: "New <br/> Send activation email"
       pending_message: "Pending <br/> Activation email sent"
       decline_message: "Declined"
