@@ -304,6 +304,8 @@ en:
     invalid_email: "This address cannot be used for a parent account."
     ip_address_added: "Your IP address has been added to School."
     account_activation_message: "Your account is activated and password successfully changed."
+    lesson:
+      blank_playlist_message: There are no items in this lesson's playlist. The playlist is where you share with your students your comments, links, videos and pictures about this lesson.
   notification:
     register_pending: "You had requested to register"
     register_approved: "Your request to Register is approved"
