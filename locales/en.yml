@@ -432,7 +432,7 @@ en:
     sign_up: "To view all of %{solaro_trade_mark} sign up now."
     invalid_class: "You are not authorized to see this Class."
     invalid_topic: "You are not authorized to see this Topic."
-    no_access_lesson: Only the first lesson and first quiz in each class topic is available for preview.  SOLARO has thousands of lessons and tens of thousands of practice questions along with study tools like Notes, Flashcards, progress reports and rewards.  To access all that SOLARO has to offer, please %{signup_link}
+    no_access_lesson: Only the first lesson and first quiz in each class topic is available for preview.  SOLARO has thousands of lessons and tens of thousands of practice questions along with study tools like notes, flashcards, progress reports and rewards.  To access all that SOLARO has to offer, please %{signup_link}
 
   lesson:
     deactivated_lesson: "Lesson is not available."
