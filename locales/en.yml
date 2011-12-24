@@ -177,6 +177,7 @@ en:
     change_card_header: "Select the Student to change associated Credit Card."
     cancel_failure: "The account can not be canceled, please contact %{email}"
     cancel_success: "The account has been canceled."
+    canceled: "Account has been already cancelled"
   ip_address:
     success_msg: "IP Address successfully added."
     failure_msg: "One or more IP Address is invalid."
