@@ -181,7 +181,7 @@ en:
   ip_address:
     success_msg: "IP Address successfully added."
     failure_msg: "One or more IP Address is invalid."
-    duplicate_error_msg: "Can't enter duplicate ip address."
+    duplicate_error_msg: "Can't enter duplicate IP Address."
     invalid_ip_submask_msg: "One or more IP Address/Submask/Prefix is invalid."
     required_msg: "IP Address required."
   merchant_address:
