@@ -212,7 +212,6 @@ en:
                             (on another computer) will not see the full version of %{solaro_trade_mark}.
                             You must add this IP address to your school. If adding this IP Address still does not correct the issue,
                             then click on the 'Remove IP Address blocking (temporarily)' button."
-    admin:
       teacher:
         deleted: Teacher deleted.
         not_deleted: "Error in teacher deletion: %{error}."
@@ -281,6 +280,8 @@ en:
     subheading2: "To get started, choose any topic in the class lists to start your lessons."
     subheading3: "As you complete lessons and quizzes, your progress bar will fill up."
   solaro_admin:
+    account_management:
+      not_found: "Couldn't find %{data_type} %{search_data}"
     unblocked_schools:
       no_records: "There are no unblocked schools in the system."
       no_student_records: "There are no students access at this time."
