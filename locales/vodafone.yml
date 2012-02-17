@@ -4,13 +4,13 @@
 # NOTE:  In general, use sentence case for messages (i.e. Capitalize only the first letter of a sentence followed by a period at the end.)
 
 
-en:
-  grade: Grade
-  region: Region
-  change_region_and_grade: Change Region, Grade & Classes
+vodafone:
+  grade: Class
+  region: Board
+  change_region_and_grade: Change Board, Class and Courses
   login_label: E-mail ID/Username
-  new_school_title: "Apply for a free SOLARO at School Account"
-  new_school_info: "There are no fees or charges for eligible schools, teachers, or students to use SOLARO at School."
+  new_school_title: "Get more information about our SOLARO at School Accounts"
+  new_school_info: "We will contact you with more information on how to get all the benefits of  SOLARO for your school."
   rule_quiz: "%{test_type} %{test_message} Rules"
   rule_paper_pencil: "You may use paper, a pencil, and a calculator."
   rule_quiz_once: "Each %{test_message} can be taken only once."
@@ -196,10 +196,6 @@ en:
     address2: "Edmonton, AB, CA"
     zip: "T5J 3S4"
     phone: "780 448 9619"
-  activerecord:
-    attributes:
-      teacher_class:
-        lable: "A class"
   student(s): "student(s)"
   students: "students"
   assesment_review:
@@ -302,7 +298,7 @@ en:
       new_classes: "New Classes"
       active_classes: "Active Classes"
       disable_classes: "Disabled Classes"
-      classes_by_region: "Classes by Region"
+      classes_by_region: "Classes by Board"
       disabled_success: "Class disabled successfully"
   teacher:
     deactivated_message: "Your account is not linked to any school. To use %{solaro_trade_mark}, your account must be linked to a school."
@@ -373,6 +369,43 @@ en:
   todo:
     empty_msg: "There are no items in your To Do list."
     complete_list_empty_msg: "There are no items in your Completed list."
+  activerecord:
+    errors:
+      template:
+          body: There were problems with the following fields
+          header:
+              one: 1 error prohibited this {{model}} from being saved
+              other: "{{count}} errors prohibited this {{model}} from being saved"
+      messages:
+          inclusion: "is not included in the list"
+          exclusion: "is reserved"
+          invalid: "is invalid"
+          confirmation: "doesn't match confirmation"
+          accepted: "must be accepted"
+          empty: "can't be empty"
+          blank: "can't be blank"
+          too_long: "is too long (maximum is {{count}} characters)"
+          too_short: "is too short (minimum is {{count}} characters)"
+          wrong_length: "is the wrong length (should be {{count}} characters)"
+          taken: "has already been taken"
+          not_a_number: "is not a number"
+          greater_than: "must be greater than {{count}}"
+          greater_than_or_equal_to: "must be greater than or equal to {{count}}"
+          equal_to: "must be equal to {{count}}"
+          less_than: "must be less than {{count}}"
+          less_than_or_equal_to: "must be less than or equal to {{count}}"
+          odd: "must be odd"
+          even: "must be even"
+      models:
+          regional_course_option:
+            attributes:
+              grade:
+                taken: already exists for this RegionalCourseOption.
+    attributes:
+     coupon:
+      region_id: "Board"
+     teacher_class:
+      lable: "A class"
   # this block mobile_api is used for only mobile api related stuffs
   # be careful before change
   mobile_api:
@@ -400,6 +433,8 @@ en:
     subscriptions:
       product_id_not_available: "You are subscribed to the maximum number of subscription supported using one Apple account. Please use different account to purchase the subscription."
       already_active: "Your subscription is active. Something went wrong. Please ignore purchasing again."
+      unable_to_process: "Unable to process."
+      invalid_product_id: "Invalid product id."
 
     answers:
       errors:
@@ -428,13 +463,13 @@ en:
     invalid: "Class code invalid."
     not_blank: "Class code can\'t be left blank."
     max_course_limit: "Select up to %{max_course_limit} classes."
-  activerecord:
-    errors:
-      models:
-        regional_course_option:
-          attributes:
-            grade:
-              taken: already exists for this RegionalCourseOption.
+#  activerecord:
+#    errors:
+#      models:
+#        regional_course_option:
+#          attributes:
+#            grade:
+#              taken: already exists for this RegionalCourseOption.
 
   guest:
     sign_up: "To view all of %{solaro_trade_mark} sign up now."
