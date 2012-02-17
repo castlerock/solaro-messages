@@ -502,3 +502,53 @@ solaro_india:
     quizbank_outcome_report_info_text_p5: "Results from a quiz will be share with students immediately after completing a practice quizzes, but will not be saved for the student. However, those results will be saved and shared in a report for you."
     quizbank_outcome_report_info_text_p6: "If you have any questions or suggestions, please email us at"
     quizbank_outcome_report_info_text_p7: "Go to the Outcome report page"
+
+  date:
+    abbr_day_names:
+    - Sun
+    - Mon
+    - Tue
+    - Wed
+    - Thu
+    - Fri
+    - Sat
+    abbr_month_names:
+    -
+    - Jan
+    - Feb
+    - Mar
+    - Apr
+    - May
+    - Jun
+    - Jul
+    - Aug
+    - Sep
+    - Oct
+    - Nov
+    - Dec
+    day_names:
+    - Sunday
+    - Monday
+    - Tuesday
+    - Wednesday
+    - Thursday
+    - Friday
+    - Saturday
+    month_names:
+    -
+    - January
+    - February
+    - March
+    - April
+    - May
+    - June
+    - July
+    - August
+    - September
+    - October
+    - November
+    - December
+    order:
+    - :year
+    - :month
+    - :day
