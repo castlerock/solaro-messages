@@ -153,6 +153,12 @@ solaro_india:
     not_activated_error_msg: "Your account is not yet activated."
     mobile_user_trial_error_msg: "Your account has not been upgraded to premium."
     mobile_user_upgrade_msg: "Please use your mobile device to upgrade your subscription"
+    success: Logged in successfully.
+    ip_not_matched: Your IP Address does not match with the accepted IP addresses.
+    login_alert: Please Login.
+    activated: Congratulations, your account is activated.  Please login.
+    invalid_activation: Invalid activation token or Account already activated.
+    already_approved: Account not found or already approved.
   user_registration:
     max_course_list: "After logging in, the student will be able to choose up to %{max_course_list} classes in Math, Science, and English Language Arts from the following list:"
     student_added_successfully: "Child successfully added. Do you want to add another child?"
@@ -185,8 +191,10 @@ solaro_india:
     cancel_failure: "The account can not be canceled, please contact %{email}"
     cancel_success: "The account has been canceled."
     canceled: "Account has been already cancelled"
+    billing_address_update: Billing Address successfully changed.
   ip_address:
     success_msg: "IP Address successfully added."
+    deleted: IP Address successfully deleted.
     failure_msg: "One or more IP Address is invalid."
     duplicate_error_msg: "Can't enter duplicate IP Address."
     invalid_ip_submask_msg: "One or more IP Address/Submask/Prefix is invalid."
@@ -204,7 +212,7 @@ solaro_india:
     approved_info: "Click to see the question with answer"
   school:
     status_info:
-      school_created: "School was created successfully"
+      school_created: "School was created successfully."
       send_message: "New <br/> Send activation email"
       pending_message: "Pending <br/> Activation email sent"
       decline_message: "Declined"
@@ -229,6 +237,8 @@ solaro_india:
       phone_number: "Phone number is required."
   school_admin:
     password_change_message: "Password successfully changed."
+    reset_password: Please reset your password now.
+    account_activated: Your account is now activated.
     school_profile_updated: "School profile successfully updated."
     region_cannot_be_blank: "Please select the region."
     teacher_reactivated: "The teacher account has been reactivated."
@@ -237,6 +247,9 @@ solaro_india:
     email_present: "Email already in use. Would you like to login or have you forgotten your password?"
     email_present_with_another_school: "This teacher account is associated with another school. Please contact the teacher so he/she can request the other school remove him/her from its list of teachers."
   teacher_class:
+    invalid_class_code: Please Enter Valid Teacher Class Code.
+    created: Class was created successfully.
+    deleted: Teacher Class was deleted successfully.
     already_exists: "Teacher Class already exists."
     add_student_to_class_message: "Add student to the selected classes"
     not_authorized_to_view_students: "You are not authorized to view student list."
@@ -247,8 +260,17 @@ solaro_india:
     bulk_student_creation_not_allowed: "For this class you cant be able to create 1 or more student account."
     unique_first_and_last_name: "please provide the unique first and last name"
     bulk_dup: "Following students are already subscribed to %{course_title} with another Teacher. Adding him/her will eject the student from other %{course_title} class.If you still want to add them to your class, select checkbox next to their name and press save."
+    no_resource: There are no page similar what you are looking for.
+    student:
+      removed: Student has been removed successfully.
+      not_removed: Student has not been removed successfully.
+      added: Student has been successfully added to your class.
+      existsted: Could not add student to all selected classes as student was already added to that course.
+      class_required: Please select a class to continue.
+      profile_updated: Profile successfully updated.
     invite_parent:
       add_email_address: "Add email address"
+      disabled: Parent Invite is not enabled.
     invitation_status:
         accepted: "Accepted, account created"
         no_invitation_sent: "No invitation sent"
@@ -266,6 +288,7 @@ solaro_india:
     user_not_found: "There is no user with that email address. Please try again after checking that the address has been entered correctly."
     username_not_found: "Please enter an email address and try again. If you login to %{solaro_trade_mark} with a username, please ask your teacher or parent to reset your password in their %{solaro_trade_mark} accounts."
     empty_params: "Please Enter the email to search."
+    changed: Password successfully changed.
   practice:
     practice_text: "Practice"
     reading_practice: "Reading Practice"
@@ -293,6 +316,11 @@ solaro_india:
     school:
       decline_school_success: 'School has been successfully declined'
       decline_school_failure: 'School has not been declined'
+      field_saved: "%{field} is taken successfully."
+      field_not_saved: "%{field} was not saved."
+      activation_mail_sent: Activation instructions email was successfully sent.
+      profile_updated: School admin profile information updated.
+      profile_not_updated: School admin profile information not updated.
     class_management:
       rco_created: 'Course successfully added to regional course options.'
       rco_updated: 'Regional Course Options updated successfully.'
@@ -301,6 +329,16 @@ solaro_india:
       disable_classes: "Disabled Classes"
       classes_by_region: "Classes by Board"
       disabled_success: "Class disabled successfully"
+    role:
+      created: Role was successfully created.
+      updated: Role was successfully updated.
+    teacher:
+      created: Teacher profile created successfully.
+    teacher_class:
+      created: Class was created successfully.
+    test_payment:
+      success: Transaction has been successfully completed.
+      failed: Transaction Failed.
   teacher:
     deactivated_message: "Your account is not linked to any school. To use %{solaro_trade_mark}, your account must be linked to a school."
     invalid_activation_link: "Oops!! Invalid activation link."
@@ -309,6 +347,12 @@ solaro_india:
     invalid_email: "This address cannot be used for a parent account."
     ip_address_added: "Your IP address has been added to School."
     account_activation_message: "Your account is activated and password successfully changed."
+    account_linked: "Your account is now linked to %{school_name}."
+    not_updated: Profile not updated.
+    updated: Profile updated.
+    deleted: Teacher deleted successfully.
+    not_deleted: Deletion Failed.
+    username_generation_error: Some error occurred during username generation.
     lesson:
       blank_playlist_message: There are no items in this lesson's playlist. The playlist is where you share with your students your comments, links, videos and pictures about this lesson.
   notification:
@@ -332,10 +376,40 @@ solaro_india:
     success: "School was successfully unblocked."
     failure: "School is already unblocked."
   assignment_completed: "After your teacher grades the assignment you will be able to review the questions and solutions."
+  profile:
+    required_fields:
+      updated: Required fields updated successfully.
+      not_updated: Required fields not updated successfully.
   parent:
     student_password: "Please enter correct password to confirm the relationship."
     classes_saved: "Classes saved."
     error_adding_courses: "Error adding classes, try later."
+    updated: Profile updated.
+    child:
+      added: "%{student_name}'s account has been added."
+      rejected: Student request has been rejected.
+      least_limit: Please select at least one child.
+      updated: Your Child Profile updated successfully.
+      cancelled: Your Child Profile update request cancelled.
+      course_grade_not_selected: No class and board have been selected for this child.
+      course_not_selected: No classes have been selected for this child.
+      grade_region_select: Please select class and board for this child.
+      select_class: Select the classes for this child.
+      notification: "You have already %{notification_status} this student."
+      profile_approval: Profile changes sent for parent approval.
+      reset_password: Your parent must login to his/her account to reset your password.
+  student:
+    region_grade_select: Please select class and board first.
+    select_course: Please select classes first.
+    class_saved: Your class selection has been saved.
+    no_classes: For this Grade & Region, there are no classes available.
+    teacher_class_added: Teacher class added successfully.
+    trial_account: The account you are using is a trial account.
+    least_course_limit: Select at least 1 class.
+
+  gadget:
+    added: "%{gadget_name} has been added."
+    no_star: You don't have enough stars.
 
     access:
       student:
@@ -363,6 +437,7 @@ solaro_india:
                      %{solaro_trade_mark} Mobile on an Apple iPad, iPhone or iPod Touch you will need to upgrade to a premium %{solaro_trade_mark} at Home account.  <br />
                   "
     upgrade_link_text: "Upgrade now for $%{base_amount}/ month"
+    no_course: No classes have been selected.
 
 
   resend_activation_email: "%{email_link} to resend the activation email."
@@ -418,6 +493,7 @@ solaro_india:
 
     course_select:
       course_limit_msg: "Please select at least one course and at most %{max_course_select} courses."
+      course_least_limit: At least one classes must be selected.
 
     sessions:
       pending_activation: "This account is not yet activated."
@@ -481,6 +557,29 @@ solaro_india:
   lesson:
     deactivated_lesson: "Lesson is not available."
     lesson_not_exist: "There are no lessons available."
+  flash_card:
+    created: Flashcard was created successfully.
+    updated: Flashcard was updated successfully.
+    deleted: Flashcard was deleted successfully.
+  notes:
+    select: Please select a note.
+    created: Note was created successfully.
+    updated: Notes was successfully updated.
+    deleted: Note was deleted successfully.
+    not_deleted: Note was not deleted successfully.
+  forum_question:
+    rating_range: Rating range must be with in 0 to 5.
+    abusive_marked: You have marked this post as abusive.
+  forum_comment:
+    not_blank: Comment cannot be blank. [HTML markups are not allowed.]
+  forum_answer:
+    not_blank: Answer body cannot be blank. [HTML markups are not allowed.]
+  assessment:
+    no_assessment: "There are no %{assessment_name} available for this %{assessment_source_name}."
+  passage:
+    locked: These levels are locked and are not available. You must achieve a score of 75% or higher on two quizzes in the previous level to unlock the next level. You may also complete all of the quizzes in the previous level to unlock the next level.
+  settings:
+    updated: Setting was successfully updated.
 
   sign_up:
     paragraph_1: "is available for Teachers and Students to use at participating schools."
@@ -488,6 +587,23 @@ solaro_india:
       line_1: "Schools get access to standards-aligned Math, Science, and English Language Classes and all of "
       line_2: " features for only $15.00 per student per year."
     paragraph_3: "To find out more about %{solaro_trade_mark} School Subscriptions, please contact us at %{sales_mail}."
+    activated: Your account is activated. Please set your password now.
+  logout:
+    success: You have been logged out.
+    inactivity: You have been logged out because of inactivity.
+  unauthorized:
+    topic_genre: You are not authorized to see this Topic/Genre.
+    topic_level: You are not authorized to see this level.
+    section: You are not authorized to see this Section.
+    lesson: You are not authorized to see this lesson.
+    passage: You are not authorized to see this passage.
+    denied: Authorization denied.
+
+  common:
+    gender_updated: Gender updated successfully.
+    invitation_success: Invitation information was sent successfully.
+    invalid_name: First Name and/or Last Name invalid.
+
 
   quizbank:
     solaro_quizbank: "Quizbank"
@@ -503,6 +619,11 @@ solaro_india:
     quizbank_outcome_report_info_text_p5: "Results from a quiz will be share with students immediately after completing a practice quizzes, but will not be saved for the student. However, those results will be saved and shared in a report for you."
     quizbank_outcome_report_info_text_p6: "If you have any questions or suggestions, please email us at"
     quizbank_outcome_report_info_text_p7: "Go to the Outcome report page"
+    disabled: Sorry this feature is not available to your school. Please contact support to inquire more about it.
+    contact_teacher: Sorry this feature is not available to your school. Please ask your teacher contact support to inquire more about it.
+    only_at_school: Sorry for the inconvenience, QuizBank is only available at schools.
+  feature_request: Your request is successfully posted.
+
 
   date:
     abbr_day_names:
