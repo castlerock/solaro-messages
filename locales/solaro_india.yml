@@ -260,6 +260,7 @@ solaro_india:
     bulk_student_creation_not_allowed: "For this class you cant be able to create 1 or more student account."
     unique_first_and_last_name: "please provide the unique first and last name"
     bulk_dup: "Following students are already subscribed to %{course_title} with another Teacher. Adding him/her will eject the student from other %{course_title} class.If you still want to add them to your class, select checkbox next to their name and press save."
+    no_student: There are no student you are looking for.
     no_resource: There are no page similar what you are looking for.
     student:
       removed: Student has been removed successfully.
