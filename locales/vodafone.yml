@@ -249,7 +249,7 @@ vodafone:
   teacher_class:
     invalid_class_code: Please Enter Valid Teacher Class Code.
     created: Class was created successfully.
-    deleted: Teacher Class was deleted successfully.
+    deleted: Teacher class was deleted successfully.
     already_exists: "Teacher Class already exists."
     add_student_to_class_message: "Add student to the selected classes"
     not_authorized_to_view_students: "You are not authorized to view student list."
