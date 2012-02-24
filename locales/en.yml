@@ -407,7 +407,7 @@ en:
     region_grade_select: Please select grade and region first.
     select_course: Please select courses first.
     class_saved: Your class selection has been saved.
-    no_classes: For this Grade & Region, there are no classes available.
+    no_classes: For this grade and region, there are no classes available.
     teacher_class_added: Teacher class added successfully.
     trial_account: The account you are using is a trial account.
     least_course_limit: Select at least 1 class.

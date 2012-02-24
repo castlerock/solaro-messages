@@ -403,7 +403,7 @@ solaro_india:
     region_grade_select: Please select class and board first.
     select_course: Please select classes first.
     class_saved: Your class selection has been saved.
-    no_classes: For this Grade & Region, there are no classes available.
+    no_classes: For this class and board, there are no classes available.
     teacher_class_added: Teacher class added successfully.
     trial_account: The account you are using is a trial account.
     least_course_limit: Select at least 1 class.
