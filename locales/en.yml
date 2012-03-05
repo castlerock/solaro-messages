@@ -478,6 +478,8 @@ en:
     subscriptions:
       product_id_not_available: "You are subscribed to the maximum number of subscription supported using one Apple account. Please use different account to purchase the subscription."
       already_active: "Your subscription is active. Something went wrong. Please ignore purchasing again."
+      unable_to_process: "Unable to process."
+      invalid_product_id: "Invalid product id."
 
     answers:
       errors:
