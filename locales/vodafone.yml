@@ -317,8 +317,8 @@ vodafone:
     school:
       decline_school_success: 'School has been successfully declined'
       decline_school_failure: 'School has not been declined'
-      field_saved: "%{field} is taken successfully."
-      field_not_saved: "%{field} was not saved."
+      field_saved: "Settings updated successfully"
+      field_not_saved: "Settings are not saved."
       activation_mail_sent: Activation instructions email was successfully sent.
       profile_updated: School admin profile information updated.
       profile_not_updated: School admin profile information not updated.
