@@ -266,7 +266,7 @@ vodafone:
       removed: Student has been removed successfully.
       not_removed: Student has not been removed successfully.
       added: Student has been successfully added to your class.
-      existsted: Could not add student to all selected classes as student was already added to that course.
+      existed: Could not add student to all selected classes as student was already added to that course.
       class_required: Please select a class to continue.
       profile_updated: Profile successfully updated.
     invite_parent:
