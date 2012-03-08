@@ -205,10 +205,6 @@ en:
     address2: "Edmonton, AB, CA"
     zip: "T5J 3S4"
     phone: "780 448 9619"
-  activerecord:
-    attributes:
-      teacher_class:
-        lable: "A class"
   student(s): "student(s)"
   students: "students"
   assesment_review:
@@ -519,7 +515,7 @@ en:
       coupon:
         region_id: "Region"
       teacher_class:
-        lable: "A grade"
+        lable: "A class"
 
   guest:
     sign_up: "To view all of %{solaro_trade_mark} sign up now."
@@ -594,20 +590,3 @@ en:
     contact_teacher: Sorry this feature is not available to your school. Please ask your teacher contact support to inquire more about it.
     only_at_school: Sorry for the inconvenience, QuizBank is only available at schools.
   feature_request: Your request is successfully posted.
-
-  number:
-    currency:
-      format:
-        delimiter: ! ','
-        format: ! '%u%n'
-        precision: 4
-        separator: .
-        significant: false
-        strip_insignificant_zeros: false
-        unit: $
-    format:
-      delimiter: ! ','
-      precision: 4
-      separator: .
-      significant: false
-      strip_insignificant_zeros: false
