@@ -4,7 +4,7 @@
 # NOTE:  In general, use sentence case for messages (i.e. Capitalize only the first letter of a sentence followed by a period at the end.)
 
 
-solaro_india:
+en:
   grade: Class
   region: Board
   change_region_and_grade: Change Board, Class and Courses
@@ -448,31 +448,6 @@ solaro_india:
     complete_list_empty_msg: "There are no items in your Completed list."
   activerecord:
     errors:
-      template:
-          body: There were problems with the following fields
-          header:
-              one: 1 error prohibited this {{model}} from being saved
-              other: "{{count}} errors prohibited this {{model}} from being saved"
-      messages:
-          inclusion: "is not included in the list"
-          exclusion: "is reserved"
-          invalid: "is invalid"
-          confirmation: "doesn't match confirmation"
-          accepted: "must be accepted"
-          empty: "can't be empty"
-          blank: "can't be blank"
-          too_long: "is too long (maximum is {{count}} characters)"
-          too_short: "is too short (minimum is {{count}} characters)"
-          wrong_length: "is the wrong length (should be {{count}} characters)"
-          taken: "has already been taken"
-          not_a_number: "is not a number"
-          greater_than: "must be greater than {{count}}"
-          greater_than_or_equal_to: "must be greater than or equal to {{count}}"
-          equal_to: "must be equal to {{count}}"
-          less_than: "must be less than {{count}}"
-          less_than_or_equal_to: "must be less than or equal to {{count}}"
-          odd: "must be odd"
-          even: "must be even"
       models:
           regional_course_option:
             attributes:
@@ -624,54 +599,3 @@ solaro_india:
     contact_teacher: Sorry this feature is not available to your school. Please ask your teacher contact support to inquire more about it.
     only_at_school: Sorry for the inconvenience, QuizBank is only available at schools.
   feature_request: Your request is successfully posted.
-
-
-  date:
-    abbr_day_names:
-    - Sun
-    - Mon
-    - Tue
-    - Wed
-    - Thu
-    - Fri
-    - Sat
-    abbr_month_names:
-    -
-    - Jan
-    - Feb
-    - Mar
-    - Apr
-    - May
-    - Jun
-    - Jul
-    - Aug
-    - Sep
-    - Oct
-    - Nov
-    - Dec
-    day_names:
-    - Sunday
-    - Monday
-    - Tuesday
-    - Wednesday
-    - Thursday
-    - Friday
-    - Saturday
-    month_names:
-    -
-    - January
-    - February
-    - March
-    - April
-    - May
-    - June
-    - July
-    - August
-    - September
-    - October
-    - November
-    - December
-    order:
-    - :year
-    - :month
-    - :day

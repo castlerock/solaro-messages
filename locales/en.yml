@@ -515,6 +515,11 @@ en:
           attributes:
             grade:
               taken: already exists for this RegionalCourseOption.
+    attributes:
+      coupon:
+        region_id: "Region"
+      teacher_class:
+        lable: "A grade"
 
   guest:
     sign_up: "To view all of %{solaro_trade_mark} sign up now."
@@ -589,3 +594,20 @@ en:
     contact_teacher: Sorry this feature is not available to your school. Please ask your teacher contact support to inquire more about it.
     only_at_school: Sorry for the inconvenience, QuizBank is only available at schools.
   feature_request: Your request is successfully posted.
+
+  number:
+    currency:
+      format:
+        delimiter: ! ','
+        format: ! '%u%n'
+        precision: 4
+        separator: .
+        significant: false
+        strip_insignificant_zeros: false
+        unit: $
+    format:
+      delimiter: ! ','
+      precision: 4
+      separator: .
+      significant: false
+      strip_insignificant_zeros: false
