@@ -420,9 +420,8 @@ en:
         blocked: "This page is not accessible for beta user"
       other:
         blocked: "This page is not accessible for you"
-    school:
-      teacher:
-        blocked: "Your account is not associated with an active school account."
+    teacher:
+      blocked: "Your account is not associated with an active school account."
 
   free_registration_without_email: "Your free %{solaro_trade_mark} at School account has been activated.<br /><br />You
                                      can now login to %{solaro_trade_mark} with your username <strong>%{username}</strong> and the password
