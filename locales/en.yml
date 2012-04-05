@@ -415,10 +415,16 @@ en:
     added: "%{gadget_name} has been added."
     no_star: You don't have enough stars.
 
+
   access:
     student:
       free:
         blocked: "This page is not accessible to your IP address"
+
+        school_expired: "Your account is not associated with an active school account."
+        upgrade_message: "To access all of %{solaro_trade_mark} features through school : Go to My Account and enter a class code to associate with any school. <br />
+                          To access all of %{solaro_trade_mark} features : %{solaro_trade_mark} Mobile on an Apple iPad, iPhone or iPod Touch without school, you will need to upgrade to a premium %{solaro_trade_mark}. <br />"
+
       beta:
         blocked: "This page is not accessible for beta user"
       other:
