@@ -340,6 +340,9 @@ en:
     test_payment:
       success: Transaction has been successfully completed.
       failed: Transaction Failed.
+    region_management:
+      success: Regions updated successfully.
+      failed: Regions updation failed.
   teacher:
     deactivated_message: "Your account is not linked to any school. To use %{solaro_trade_mark}, your account must be linked to a school."
     invalid_activation_link: "Oops!! Invalid activation link."
