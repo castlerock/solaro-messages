@@ -562,10 +562,10 @@ en:
   settings:
     updated: Setting was successfully updated.
   sign_up:
-    paragraph_1: "is available for Teachers and Students to use at subscribing schools."
+    paragraph_1: "<strong>%{solaro_trade_mark}</strong> is available for Teachers and Students to use at subscribing schools."
     paragraph_2:
       line_1: "Schools get access to standards-aligned Math, Science and English Language Classes and all of "
-      line_2: " features for a low per student per year fee."
+      line_2: " <strong>%{solaro_trade_mark}'s</strong> features for a low per student per year fee."
     paragraph_3: "To find out more about %{solaro_trade_mark} School Subscriptions, please contact us at %{sales_mail}."
     activated: Your account is activated. Please set your password now.
   logout:
