@@ -9,8 +9,8 @@ en:
   region: Region
   change_region_and_grade: Change Region, Grade & Classes
   login_label: E-mail ID/Username
-  new_school_title: "Apply for a free SOLARO at School Account"
-  new_school_info: "There are no fees or charges for eligible schools, teachers, or students to use SOLARO at School."
+  new_school_title: "Get more information about our SOLARO at School Accounts."
+  new_school_info: "We will contact you with more information on how to get all the benefits of %{solaro_trade_mark} for your school. %{solaro_trade_mark} is ad-free and we do not rent, sell, or distribute our customer’s information. Read our %{privacy_policy_link} for more information."
   rule_quiz: "%{test_type} %{test_message} Rules"
   rule_paper_pencil: "You may use paper, a pencil, and a calculator."
   rule_quiz_once: "Each %{test_message} can be taken only once."

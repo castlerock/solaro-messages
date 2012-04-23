@@ -9,8 +9,6 @@ en:
   region: Board
   change_region_and_grade: Change Board, Class and Courses
   login_label: E-mail ID
-  new_school_title: "Get more information about our SOLARO at School Accounts"
-  new_school_info: "We will contact you with more information on how to get all the benefits of  SOLARO for your school."
   rule_quiz: "%{test_type} %{test_message} Rules"
   rule_paper_pencil: "You may use paper, a pencil, and a calculator."
   rule_quiz_once: "Each %{test_message} can be taken only once."
