@@ -578,6 +578,7 @@ en:
     lesson: You are not authorized to see this lesson.
     passage: You are not authorized to see this passage.
     denied: Authorization denied.
+    no_access: You are not authorized to access this data.
 
   common:
     gender_updated: Gender updated successfully.
