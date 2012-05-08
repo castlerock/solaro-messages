@@ -37,9 +37,8 @@ en:
   delete_note: "Note deleted"
   reports_parent_courses_title: 'Classes'
   reports_parent_topics_title: "Topics"
-  test_finish: "You have finished the test."
-  ela_test_finish: "You have finished the practice test."
-  test_save: "Your Practice Test has been saved."
+  test_finish: "You have finished the %{test_type} %{test_name}."
+  test_save: "Your %{test_type} %{test_name} has been saved."
   standard_extension: "This lesson does not appear in your standards, however our curriculum experts believe it is important for students in this grade to be exposed to it."
   cad: CAD
   usd: USD
