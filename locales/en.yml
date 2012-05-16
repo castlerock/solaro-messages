@@ -428,6 +428,7 @@ en:
         blocked: "This page is not accessible for beta user"
       other:
         blocked: "This page is not accessible for you"
+      unauthorized: "You don\'t have the permission to perform this action."
     teacher:
       blocked: "Your account is not associated with an active school account."
 
