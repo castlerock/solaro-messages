@@ -401,6 +401,8 @@ en:
       notification: "You have already %{notification_status} this student."
       profile_approval: Profile changes sent for parent approval.
       reset_password: Your parent must login to his/her account to reset your password.
+      change_courses: Add or change the grade, region & classes for this child.
+      upgrade_to_change_courses: Upgrade your child's account to change the grade, region & classes.
   student:
     region_grade_select: Please select grade and region first.
     select_course: Please select courses first.
