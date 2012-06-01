@@ -421,8 +421,10 @@ en:
     student:
       free:
         blocked: "This page is not accessible to your IP address"
-
-        school_expired: "Your account is not associated with an active school account."
+        school_account: "Your %{solaro_trade_mark} account has been provided to you by your school or library."
+        school_expired: "It's %{solaro_trade_mark} subscription has expired."
+        school_upgrade: "To access all of %{solaro_trade_mark}'s features on your computer or mobile device you can %{upgrade_link}."
+        aceess_at_school: "When away from your school or library you only have limited access to %{solaro_trade_mark}."
         upgrade_message: "To access all of %{solaro_trade_mark} features through school : Go to My Account and enter a class code to associate with any school. <br />
                           To access all of %{solaro_trade_mark} features : %{solaro_trade_mark} Mobile on an Apple iPad, iPhone or iPod Touch without school, you will need to upgrade to a premium %{solaro_trade_mark}. <br />"
 
@@ -431,6 +433,9 @@ en:
       other:
         blocked: "This page is not accessible for you"
       unauthorized: "You don\'t have the permission to perform this action."
+
+      inactive:
+        upgrade_message: "Your premium %{solaro_trade_mark} at Home account has expired. To continue using the premium features please %{upgrade_link}"
     teacher:
       blocked: "Your account is not associated with an active school account."
 
@@ -452,6 +457,7 @@ en:
                   "
     upgrade_link_text: "Upgrade now for $%{base_amount}/ month"
     no_course: No classes have been selected.
+    ip_blocking_message: "When away from your school or library you only have limited access to %{solaro_trade_mark}."
 
 
   resend_activation_email: "%{email_link} to resend the activation email."
