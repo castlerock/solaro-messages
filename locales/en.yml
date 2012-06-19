@@ -26,6 +26,8 @@ en:
   activity_lesson_complete: "Completed a lesson"
   activity_cluster_complete: "Completed a cluster"
   activity_cloze_question_complete: "Completed a cloze question"
+  activity_asset_viewed: "Viewed an Asset"
+  activity_lesson_viewed: "Viewed a Lesson"
   deactivated_discussion: "De-activated discussion"
   deactivated_answer: "De-activated answer"
   deactivated_comment: "De-activated comment"
