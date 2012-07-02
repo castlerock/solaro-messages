@@ -571,6 +571,7 @@ en:
     locked: These levels are locked and are not available. You must achieve a score of 75% or higher on two quizzes in the previous level to unlock the next level. You may also complete all of the quizzes in the previous level to unlock the next level.
   settings:
     updated: Setting was successfully updated.
+    students_count: "%{count} student(s) are registered in the region.\n Do you really want to change the region public/private."
   sign_up:
     paragraph_1: "<strong>%{solaro_trade_mark}</strong> is available for Teachers and Students to use at subscribing schools."
     paragraph_2:
