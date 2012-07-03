@@ -429,7 +429,8 @@ en:
         aceess_at_school: "When away from your school or library you only have limited access to %{solaro_trade_mark}."
         upgrade_message: "To access all of %{solaro_trade_mark} features through school : Go to My Account and enter a class code to associate with any school. <br />
                           To access all of %{solaro_trade_mark} features : %{solaro_trade_mark} Mobile on an Apple iPad, iPhone or iPod Touch without school, you will need to upgrade to a premium %{solaro_trade_mark}. <br />"
-
+        cannot_change_grade_region: "Change Grade and Region is not allowed to your account"
+        cannot_change_region: "Change region is not allowed to your account"
       beta:
         blocked: "This page is not accessible for beta user"
       other:
