@@ -37,6 +37,7 @@ en:
   new_note: 'New note created'
   update_note: "Note updated"
   delete_note: "Note deleted"
+  search_lesson_and_notes: "Please enter search term."
   reports_parent_courses_title: 'Classes'
   reports_parent_topics_title: "Topics"
   test_finish: "You have finished the %{test_type} %{test_name}."
