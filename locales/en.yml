@@ -414,6 +414,7 @@ en:
     teacher_class_added: Teacher class added successfully.
     trial_account: The account you are using is a trial account.
     least_course_limit: Select at least 1 class.
+    cancel_account_message: "To cancel your %{solaro_trade_mark} student account please have your parent login (username: %{parent_username}) to their account."
 
   gadget:
     added: "%{gadget_name} has been added."
