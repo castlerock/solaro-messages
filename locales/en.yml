@@ -406,6 +406,7 @@ en:
       reset_password: Your parent must login to his/her account to reset your password.
       change_courses: Add or change the grade, region & classes for this child.
       upgrade_to_change_courses: Upgrade your child's account to change the grade, region & classes.
+      max_courses_msg: Select a maximum of %{no_of_courses} classes for this child.
   student:
     region_grade_select: Please select grade and region first.
     select_course: Please select courses first.
@@ -415,7 +416,7 @@ en:
     trial_account: The account you are using is a trial account.
     least_course_limit: Select at least 1 class.
     cancel_account_message: "To cancel your %{solaro_trade_mark} student account please have your parent login (username: %{parent_username}) to their account."
-
+    max_courses_msg: Select a Maximum of %{no_of_courses} Courses.
   gadget:
     added: "%{gadget_name} has been added."
     no_star: You don't have enough stars.
