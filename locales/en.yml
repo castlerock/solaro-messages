@@ -7,7 +7,7 @@
 en:
   grade: Grade
   region: Region
-  school_validation_message: "school is already exists with this code %{school_code}."
+  school_validation_message: "school is already exists with this code."
   change_region_and_grade: Change Region, Grade & Classes
   login_label: E-mail ID/Username
   new_school_title: "Get more information about our SOLARO at School Accounts."
@@ -216,6 +216,7 @@ en:
   school:
     status_info:
       school_created: "School was created successfully."
+      schools_created: "Schools are created successfully."
       send_message: "New <br/> Send activation email"
       pending_message: "Pending <br/> Activation email sent"
       decline_message: "Declined"
