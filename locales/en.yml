@@ -7,7 +7,7 @@
 en:
   grade: Grade
   region: Region
-  school_validation_message: "school is already exists with this code."
+  school_validation_message: "is already exists in this state."
   change_region_and_grade: Change Region, Grade & Classes
   login_label: E-mail ID/Username
   new_school_title: "Get more information about our SOLARO at School Accounts."
