@@ -216,7 +216,7 @@ en:
   school:
     status_info:
       school_created: "School was created successfully."
-      schools_created: "Schools are created successfully."
+      schools_created: "%{school_count} Schools are created successfully."
       region_not_found: "Region does not exist."
       send_message: "New <br/> Send activation email"
       pending_message: "Pending <br/> Activation email sent"
