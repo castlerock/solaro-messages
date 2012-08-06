@@ -218,6 +218,7 @@ en:
       school_created: "School was created successfully."
       schools_created: "Schools are created successfully."
       region_not_found: "Region does not exist."
+      school_code_not_blank: "School code should not be blank."
       send_message: "New <br/> Send activation email"
       pending_message: "Pending <br/> Activation email sent"
       decline_message: "Declined"
