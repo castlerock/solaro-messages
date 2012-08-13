@@ -252,6 +252,7 @@ en:
     teacher_resend_invite: "Resent invitation successfully"
     email_present: "Email already in use. Would you like to login or have you forgotten your password?"
     email_present_with_another_school: "This teacher account is associated with another school. Please contact the teacher so he/she can request the other school remove him/her from its list of teachers."
+    teacher_invitation_subject: "%{school_name} has invited you to create a %{solaro_trade_mark} at School teacher account."
   teacher_class:
     students_updated_successfull: Students first name and last name was updated successfully.
     invalid_class_code: Please Enter Valid Teacher Class Code.
