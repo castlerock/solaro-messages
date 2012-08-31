@@ -203,6 +203,7 @@ en:
     duplicate_error_msg: "Can't enter duplicate IP Address."
     invalid_ip_submask_msg: "One or more IP Address/Submask/Prefix is invalid."
     required_msg: "IP Address required."
+    no_school_record: "No school found."
   merchant_address:
     name: "Castle Rock Research Corp"
     address1: "2340 Manulife Place"
