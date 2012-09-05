@@ -539,6 +539,7 @@ en:
       updated: RegionalCourseOption was successfully updated.
       not_updated: Could not update the RegionalCourseOption.
   class_code:
+    outside_ip_range: "You can only add this teacher class code if you are using a computer on the school\'s network."
     invalid: "Class code invalid."
     not_blank: "Class code can\'t be left blank."
     max_course_limit: "Select up to %{max_course_limit} classes."
