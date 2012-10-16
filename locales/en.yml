@@ -225,6 +225,9 @@ en:
       pending_message: "Pending <br/> Activation email sent"
       decline_message: "Declined"
       active_message: "Active"
+      deleted_school: "School was deleted successfully."
+      error_in_deletion: "Error in deletion of school."
+      school_not_exists: "School is deactivated/not found"
       add_ip_to_school: "Add this IP Address to the School"
       remove_ip_from_school: "Remove IP Address blocking (temporarily)"
       ip_blocking_message: "If you are at school, but the 'School' icon is not green then students who connect from this IP address
