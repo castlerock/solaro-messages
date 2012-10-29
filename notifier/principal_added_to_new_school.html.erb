@@ -1,12 +1,9 @@
 <% profile = @notification.profile %>
 <tr>
-  <td> Hi <%= profile.salutation %> <%= profile.last_name %>,</td>
+  <td> Hi <%= profile.first_name %>,</td>
 </tr>
 <tr>
   <td><%= profile.school.name %> would like you to join their school. To accept or decline this invitation, please login to your <%= configatron.solaro_trade_mark %> account at <%= configatron.site_url %>,
-    If you have forgot your password, go to <%= configatron.site_url %>/forgot_password and enter your email address. <%= configatron.solaro_trade_mark %> will send you a link to reset your password.
-  </td>
-  <td>
-    Should you have any questions or comments, please contact us at  <%= configatron.support.mail %>  or call <%= configatron.support.contact %>.
+    If you have forgotten your password, go to <%= configatron.site_url %>/forgot_password and enter your email address. <%= configatron.solaro_trade_mark %> will send you a link to reset your password.
   </td>
 </tr>
