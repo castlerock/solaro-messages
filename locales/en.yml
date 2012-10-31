@@ -222,6 +222,7 @@ en:
       region_not_found: "Region does not exist."
       school_code_not_blank: "School code should not be blank."
       send_message: "New <br/> Send activation email"
+      invitation_message: "New <br/> Send invitation email"
       pending_message: "Pending <br/> Activation email sent"
       decline_message: "Declined"
       active_message: "Active"
@@ -337,6 +338,8 @@ en:
       field_saved: "Settings updated successfully"
       field_not_saved: "Settings are not saved."
       activation_mail_sent: Activation instructions email was successfully sent.
+      invitation_mail_sent: School invitation email was successfully sent.
+      invitation_mail_not_sent: School invitation email was not sent.
       profile_updated: School admin profile information updated.
       profile_not_updated: School admin profile information not updated.
     class_management:
