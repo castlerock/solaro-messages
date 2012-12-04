@@ -270,7 +270,7 @@ en:
     created: Class was created successfully.
     deleted: Teacher class was deleted successfully.
     already_exists: "Teacher Class already exists."
-    course_already_exists: 'You are already registered in this class but with a different teacher. Only your teacher can register you in this class.'
+    course_already_exists: 'You are already registered in this class but with a different teacher. Contact your teacher.'
     add_student_to_class_message: "Add student to the selected classes"
     not_authorized_to_view_students: "You are not authorized to view student list."
     bulk_students_created_message: "%{no_of_students} been added to this class successfully."
