@@ -382,6 +382,7 @@ en:
     username_generation_error: Some error occurred during username generation.
     lesson:
       blank_playlist_message: There are no items in this lesson's playlist. The playlist is where you share with your students your comments, links, videos and pictures about this lesson.
+      invalid_website: doesn't appear to be a valid website address. Please check it and try again.
   notification:
     register_pending: "You had requested to register"
     register_approved: "Your request to Register is approved"
@@ -393,6 +394,7 @@ en:
     parent_request_rejected: "You had rejected to became the child of %{support_email}"
     change_email_pending: "You had requested to change your email address"
     change_email_approved: "You had changed your email address successfully"
+    change_email_completed_expired: "This change of email request has already been completed or has expired."
     child_request_pending: "You had requested to add parent %{to_email}"
     child_request_approved: "You had successfully added the parent %{to_email}"
   unsubscribe_success_message: "You are successfully unsubscribed from the SOLARO mailing list."
