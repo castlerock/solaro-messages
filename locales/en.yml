@@ -507,6 +507,7 @@ en:
         free:
           check_ip_range: "You are not in allowed IP range"
           mobile_api_blocked: "This resource is not accessible to your IP address"
+      inactive: "This resource is not accessible. Please upgrade your account."
 
     course_select:
       course_limit_msg: "Please select at least one course and at most %{max_course_select} courses."
