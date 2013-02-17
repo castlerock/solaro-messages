@@ -172,7 +172,7 @@ en:
     session_expired: "Session expired. Please try again."
     child_account_created: "Your %{solaro_trade_mark} Student Account has been created."
     no_recommended_classes: "No recommended classes found. You can add additional classes after signing up."
-    gateway_down: "Due to an error with our payment gateway, we were unable to process your payment. We apologize for this situation. Please log in to the parent account that was created with your email address as your username.  You can make the payment from that account so you do not need to re-enter all of your child's details."
+    gateway_down_html: "Due to an error with our payment gateway, we were unable to process your payment. We apologize for this situation. Please log in to the parent account that was created with your email address as your username.  You can make the payment from that account so you do not need to re-enter all of your child's details."
     parent_child_created: "Parent and child accounts have been created/updated."
     payment_alert_text: "Do not go to any other page or refresh the web browser otherwise your payment may be canceled or a duplicate payment may be made."
     update_credit_card_text: "Do not go to any other page or refresh the web browser otherwise your credit card update may fail."
@@ -429,7 +429,7 @@ en:
       profile_approval: Profile changes sent for parent approval.
       reset_password: Your parent must login to his/her account to reset your password.
       change_courses: Add or change the grade, region & classes for this child.
-      upgrade_to_change_courses: Upgrade your child's account to change the grade, region & classes.
+      upgrade_to_change_courses_html: Upgrade your child's account to change the grade, region & classes.
       max_courses_msg: Select a maximum of %{no_of_courses} classes for this child.
       footer_course_selection_info:  "<p class='alert'> Please select the <strong>Classes</strong> for this child. </p>"
       delete: Your Child Profile deleted successfully.
