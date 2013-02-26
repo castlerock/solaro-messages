@@ -429,7 +429,7 @@ en:
       notification: "You have already %{notification_status} this student."
       profile_approval: Profile changes sent for parent approval.
       reset_password: Your parent must login to his/her account to reset your password.
-      change_courses: Add or change the grade, region & classes for this child.
+      change_courses_html: Add or change the grade, region & classes for this child.
       upgrade_to_change_courses_html: Upgrade your child's account to change the grade, region & classes.
       max_courses_msg: Select a maximum of %{no_of_courses} classes for this child.
       footer_course_selection_info:  "<p class='alert'> Please select the <strong>Classes</strong> for this child. </p>"
