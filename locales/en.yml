@@ -55,6 +55,11 @@ en:
   required_fields_update_success: "Profile was updated successfully."
   unauthorised: "Something went wrong. "
   no_student: "There are no student(s)."
+  report:
+    errors:
+     mandatory_fields: Enter valid From Date and To Date.
+     one_month: You are only allowed to download the report for a month. Please enter From Date and To Date within that range to download.
+     invalid_date_selection: From Date should be less than To Date.
   student_reports:
     calendar_report:
       assessments_quizzes: "Practice Quizzes and Tests"
