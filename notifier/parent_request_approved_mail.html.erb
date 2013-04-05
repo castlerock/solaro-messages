@@ -1,8 +1,8 @@
 <tr>
-  <td>Hi <%= @notification.invitee_profile.display_name %>,</td>
+  <td>Hi <%= @notification.profile.display_name %>,</td>
 </tr>
 <tr>
-  <td>Your parent request has been approved by <%= @notification.invitee_profile.parent.display_name %></td>
+  <td>Your parent request has been approved by <%= @notification.profile.parent.try(:display_name) %></td>
 </tr>
 <tr>
   <td><%= link_to login_url, login_url %></td>
