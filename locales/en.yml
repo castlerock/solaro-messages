@@ -577,6 +577,8 @@ en:
             grade:
               taken: already exists for this RegionalCourseOption.
     attributes:
+      sponser_detail:
+        code: "Sponsor ID"
       coupon:
         region_id: "Region"
       teacher_class:
