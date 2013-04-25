@@ -548,6 +548,11 @@ en:
     assignments:
       errors:
         all_answered: "All the questions need to be answered."
+        already_finished: "This assignment is already finished"
+
+    assessments:
+      errors:
+        already_finished: "This assessment is already finished"
 
   cms_api:
     error:
