@@ -68,7 +68,7 @@ en:
   teacher_reports:
     outcome_report:
       completed_questions: "Completed Questions"
-      error_message: "This URL is invalid."
+      error_message: "This page is no longer available."
     progress_report:
       test_and_quiz_results: "Practice Test and Quiz Results"
     assignment_report:
