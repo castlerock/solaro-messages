@@ -617,6 +617,7 @@ en:
     not_blank: Answer body cannot be blank. [HTML markups are not allowed.]
   assessment:
     no_assessment: "There are no %{assessment_name} available for this %{assessment_source_name}."
+    deleted: 'This assessment is no longer available'
   passage:
     locked: These levels are locked and are not available. You must achieve a score of 75% or higher on two quizzes in the previous level to unlock the next level. You may also complete all of the quizzes in the previous level to unlock the next level.
   settings:
