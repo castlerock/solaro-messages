@@ -664,6 +664,7 @@ en:
     disabled: Sorry this feature is not available to your school. Please contact support to inquire more about it.
     contact_teacher: Sorry this feature is not available to your school. Please ask your teacher contact support to inquire more about it.
     only_at_school: Sorry for the inconvenience, QuizBank is only available at schools.
+    no_questions: "No questions available"
   feature_request: "Your request is successfully posted."
   deleted_school_message: "Your account is not linked to any school.  To use SOLARO, your account must be linked to a school."
   inactive_school_message: "Your account is not associated with an active school."
