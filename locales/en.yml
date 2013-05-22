@@ -167,6 +167,7 @@ en:
     mobile_user_trial_error_msg: "Your account has not been upgraded to premium."
     mobile_user_upgrade_msg: "Please use your mobile device to upgrade your subscription"
     success: Logged in successfully.
+    switched_profile: Switched profile successfully.
     ip_not_matched: Your IP Address does not match with the accepted IP addresses.
     login_alert: Please Login.
     activated: Congratulations, your account is activated.  Please login.
