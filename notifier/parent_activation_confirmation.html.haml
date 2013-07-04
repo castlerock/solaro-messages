@@ -11,7 +11,7 @@
   %td
     Your Username is your email address: #{@notification.to_email}
 
-= unless profile.user.activated
+- unless profile.user.activated
   %tr
     %td
       %strong Click the link below and follow the instructions to continue the account creation process:
