@@ -10,17 +10,3 @@
 %tr
   %td
     Your Username is your email address: #{@notification.to_email}
-
-- unless profile.user.activated
-  %tr
-    %td
-      %strong Click the link below and follow the instructions to continue the account creation process:
-  %tr
-    %td
-      = link_to "Click here to continue to activate your account and set the password.", activate_and_reset_password_url(@notification.activation_code)
-  %tr
-    %td
-      You can also
-      %strong copy and paste the URL below into your browser.
-  %tr
-    %td= activate_and_reset_password_url(@notification.activation_code)
