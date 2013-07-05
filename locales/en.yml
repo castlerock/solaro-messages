@@ -416,6 +416,10 @@ en:
     failure: "School is already unblocked."
   assignment_completed: "After your teacher grades the assignment you will be able to review the questions and solutions."
   profile:
+    accepted: 'You have accepted your %{type} Successfully.'
+    rejected: 'You have rejected your %{type} Successfully.'
+    student:
+      cannot_accept: 'Profile cannot be accepted. In order to accept the profile, please complete the payment process.'
     required_fields:
       updated: Required fields updated successfully.
       not_updated: Required fields not updated successfully.
