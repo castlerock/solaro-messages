@@ -156,6 +156,7 @@ en:
     activated: Congratulations, your account is activated.  Please login.
     invalid_activation: Invalid activation token or Account already activated.
     already_approved: Account not found or already approved.
+    already_activated: Account already activated. Please login.
   user_registration:
     max_course_list: "After logging in, the student will be able to choose up to %{max_course_list} classes in Math, Science, and English Language Arts from the following list:"
     student_added_successfully: "Child successfully added. Do you want to add another child?"

@@ -173,6 +173,7 @@ en:
     activated: Congratulations, your account is activated.  Please login.
     invalid_activation: Invalid activation token or Account already activated.
     already_approved: Account not found or already approved.
+    already_activated: Account already activated. Please login.
   user_registration:
     max_course_list: "After logging in, the student will be able to choose up to %{max_course_list} classes in Math, Science, and English Language Arts from the following list:"
     student_added_successfully: "Child successfully added. Do you want to add another child?"
@@ -418,6 +419,7 @@ en:
   profile:
     accepted: 'You have accepted your %{type} Successfully.'
     rejected: 'You have rejected your %{type} Successfully.'
+
     student:
       cannot_accept: 'Profile cannot be accepted. In order to accept the profile, please complete the payment process.'
     required_fields:
