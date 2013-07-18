@@ -465,7 +465,7 @@ en:
     no_star: You don't have enough stars.
 
   multi_profile:
-    profile_used: "A %{profile_type} account with this email address already exists. Only one account type per email address is allowed."
+    profile_used: "A %{account_type} account with this email address already exists. Only one account type per email address is allowed."
   access:
     student:
       free:
