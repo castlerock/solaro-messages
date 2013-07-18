@@ -272,7 +272,6 @@ en:
     teacher_resend_invite: "Resent invitation successfully"
     email_present: "Email already in use. Would you like to login or have you forgotten your password?"
     email_present_with_another_school: "This teacher account is associated with another school. Please contact the teacher so he/she can request the other school remove him/her from its list of teachers."
-    school_admin_email_present_with_another_school: "This school admin account is associated with another school. Please contact the school admin so he/she can request the other school remove him/her from it."
     teacher_invitation_subject: "%{school_name} has invited you to create a %{solaro_trade_mark} at School teacher account."
   teacher_class:
     not_found: Teacher class doesn't exists.
@@ -466,7 +465,7 @@ en:
     no_star: You don't have enough stars.
 
   multi_profile:
-    profile_used: "Already requested profile type is associated and used."
+    profile_used: "A %{profile_type} account with this email address already exists. Only one account type per email address is allowed."
   access:
     student:
       free:
