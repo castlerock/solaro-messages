@@ -1,3 +1,4 @@
+- url = @parent.activated ? configatron.site_url : register_parent_url(@notification.activation_code)
 %tr
   %td
     Hi #{@parent.full_name},
@@ -12,11 +13,11 @@
 %tr
   %td
     Click here to
-    = link_to("login to #{configatron.solaro_trade_mark}", register_parent_url(@notification.activation_code))
+    = link_to("login to #{configatron.solaro_trade_mark}", url)
 %tr
   %td
     You can also copy and paste this link into your browser:
 %tr
   %td
-    = link_to(register_parent_url(@notification.activation_code), register_parent_url(@notification.activation_code))
+    = link_to(url, url)
   
