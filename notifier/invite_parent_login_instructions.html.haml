@@ -1,4 +1,4 @@
-- url = @parent.activated ? configatron.site_url : register_parent_url(@notification.activation_code)
+- url = @parent.activated && @parent.parent_profile.present? ? configatron.site_url : register_parent_url(@notification.activation_code)
 %tr
   %td
     Hi #{@parent.full_name},
